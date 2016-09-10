@@ -1,3 +1,4 @@
 cache/
+logs/
 user/config/security.yaml
 user/accounts/muflone.yaml
