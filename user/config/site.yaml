@@ -1,7 +1,14 @@
-title: Grav
+title: Muflone
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
-metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+  name: Muflone
+  email: muflone@muflone.com
+taxonomies:
+  - category
+  - tag
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
