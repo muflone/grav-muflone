@@ -5,3 +5,4 @@ images/
 fix-permissions.sh
 user/config/security.yaml
 user/accounts/muflone.yaml
+*.geany
