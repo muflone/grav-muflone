@@ -1,0 +1,44 @@
+dummy: true
+products:
+  -
+    name: Gespeaker
+    short_name: gespeaker
+    github: 'https://github.com/muflone/gespeaker'
+    translations: 'https://www.transifex.com/projects/p/gespeaker/'
+    languages:
+      - english
+      - french
+      - italian
+      - spanish
+      - catalan
+      - dutch
+      - polish
+      - bulgarian
+      - faroese
+      - german
+      - arabic
+      - greek
+      - vietnamese
+      - turkish
+      - chinese
+    versions:
+      -
+        version: 0.8.6
+        shortver: v086
+        packages: [{ type: source, filename: gespeaker-0.8.6.tar.gz, size: 149, md5sum: DCCFED9A29393692E3FAB334541BC996 }, { type: debian, filename: gespeaker_0.8.6-1_all.deb, size: 123, md5sum: 429787EC6621F6836B5287583F5E6029 }, { type: archlinux, filename: gespeaker-0.8.6-1-any.pkg.tar.xz, size: 124, md5sum: 4B18FBD1178B151AE18D4FFA42893354 }, { type: aur, filename: gespeaker-git, size: 0, md5sum: '-' }]
+      -
+        version: 0.8.5
+        shortver: v085
+        packages: [{ type: source, filename: gespeaker-0.8.5.tar.gz, size: 148, md5sum: 5D97DED1B867C5E3D83F7D31E54B9628 }, { type: debian, filename: gespeaker_0.8.5-2_all.deb, size: 122, md5sum: 40A5D32F4F87EEE47B09D8E1B6BD2A82 }, { type: archlinux, filename: gespeaker-0.8.5-1-any.pkg.tar.xz, size: 122, md5sum: 960C0FBE1E596A122635C4744F4BBB0E }]
+      -
+        version: 0.8.4
+        shortver: v084
+        packages: [{ type: source, filename: gespeaker-0.8.4.tar.gz, size: 145, md5sum: 63C7A8B9EF3DB4340EB197E4860DC244 }, { type: debian, filename: gespeaker_0.8.4-1_all.deb, size: 122, md5sum: C13EF8F8CD54BD01D313B2B5DB724078 }, { type: archlinux, filename: gespeaker-0.8.4-1-any.pkg.tar.xz, size: 120, md5sum: D1772D76588206F3359B7082F24AE6EB }]
+      -
+        version: 0.8.3
+        shortver: v083
+        packages: [{ type: source, filename: gespeaker-0.8.3.tar.gz, size: 144, md5sum: 3BB5F54810CB875C55A1A4E9401213C6 }, { type: debian, filename: gespeaker_0.8.3-1_all.deb, size: 121, md5sum: 14834B2E9A3DE691781E83171FBC0CFE }, { type: archlinux, filename: gespeaker-0.8.3-1-any.pkg.tar.xz, size: 120, md5sum: A1AFF7C06637A9950B80D22FF61E77CD }]
+      -
+        version: 0.8.2
+        shortver: v082
+        packages: [{ type: source, filename: gespeaker-0.8.2.tar.gz, size: 142, md5sum: 12C74AB7858C818D0EA12CF0AD4A4FD8 }, { type: debian, filename: gespeaker_0.8.2-1_all.deb, size: 140, md5sum: FAA3BEE358D295B84480C8F5ADEAD1AE }, { type: archlinux, filename: gespeaker-0.8.2-1-any.pkg.tar.xz, size: 116, md5sum: F24C87CE159946FBEFEFB0A2A854D88F }]
