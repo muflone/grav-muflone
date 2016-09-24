@@ -4,5 +4,6 @@ backup/
 images/
 fix-permissions.sh
 user/config/security.yaml
-user/accounts/muflone.yaml
+user/accounts/
+user/data/notifications/
 *.geany
