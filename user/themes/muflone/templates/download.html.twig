@@ -1,0 +1,71 @@
+{% extends 'item.html.twig' %}
+{% do assets.addJs('theme://js/ion.tabs.min.js', 90) %}
+{% do assets.addCss('theme://css/ion.tabs.css', 90) %}
+{% do assets.addCss('theme://css/ion.tabs.skinBorderedCustom.css', 90) %}
+
+{% block content %}
+          <h1><a name="download" class="anchor"></a>{{ 'THEME_MUFLONE.DOWNLOADS.TITLE'|t }}</h1>
+          <p>{{ 'THEME_MUFLONE.DOWNLOADS.LICENSE'|t(active_product.name, active_product.github) }}</p>
+
+          <h1><a name="distributions" class="anchor"></a>{{ 'THEME_MUFLONE.DISTRIBUTIONS.TITLE'|t }}</h1>
+          <p>{{ 'THEME_MUFLONE.DISTRIBUTIONS.VERSIONS1'|t(active_product.name) }}
+            {{ 'THEME_MUFLONE.DISTRIBUTIONS.VERSIONS2'|t }}</p>
+
+          <p>{{ 'THEME_MUFLONE.DISTRIBUTIONS.VERSIONS3'|t(active_product.github) }}</p>
+
+          <h1><a name="packages" class="anchor"></a>{{ 'THEME_MUFLONE.PACKAGES.TITLE'|t }}</h1>
+          <p>{{ 'THEME_MUFLONE.PACKAGES.PACKAGES1'|t }}
+            {{ 'THEME_MUFLONE.PACKAGES.PACKAGES2'|t }}</p>
+
+          <script>
+            $(document).ready(function(){
+              $.ionTabs("#tabs_packages");
+            });
+          </script>
+          <div class="ionTabs" id="tabs_packages" data-name="Tabs_Group_name">
+            <ul class="ionTabs__head">
+  {% for version in active_product.versions %}
+              <li class="ionTabs__tab" data-target="Tab_{{ version.shortver }}">{{ version.version }}</li>
+  {% endfor %}
+            </ul>
+            <div class="ionTabs__body">
+  {% for version in active_product.versions %}
+              <div class="ionTabs__item" data-name="Tab_{{ version.shortver }}">
+                <table id="packages">
+                  <thead>
+                    <th>Package type</th>
+                    <th>Size</th>
+                    <th>MD5</th>
+                    <th colspan="2">Download</th>
+                  </thead>
+    {% for package in version.packages %}
+      {% set package_type = package.type %}
+      {% if package.type == 'archlinux32' or package.type == 'archlinux64' or package.type == 'aur' %}
+        {% set package_type = "archlinux" %}
+      {% endif %}
+                  <tr>
+                    <td class="type"><img src="{{ url('theme://images/' ~ package_type ~ '-32.png') }}"> {{ ('THEME_MUFLONE.PACKAGES.' ~ package.type|upper)|t }}</td>
+                    <td class="size">{{ package.size }} kB</td>
+                    <td class="md5sum">{{ package.md5sum | upper }}</td>
+        {% if package.type == 'aur' %}
+                    <td colspan="2"><a href="https://aur.archlinux.org/packages/{{ package.filename }}/"
+                      target="_blank">
+                      <img src="{{ url('theme://images/archlinux-32.png') }}"></a></td>
+        {% else %}
+                    <td><a href="{{ url('resources/' ~ active_product.short_name ~ '/archive/' ~ version.version ~ '/' ~ package.filename) }}"
+                      title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} Muflone">
+                      <img src="{{ url('theme://images/muflone-32.png') }}"></a></td>
+                    <td><a href="{{ active_product.github  }}/releases/download/{{ version.version }}/{{ package.filename }}"
+                      title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} GitHub">
+                      <img src="{{ url('theme://images/github-32.png') }}"></a></td>
+        {% endif %}
+                  </tr>
+    {% endfor %}
+                </table>
+              </div>
+  {% endfor %}
+              <div class="ionTabs__preloader"></div>
+            </div>
+
+    {{ page.content }}
+{% endblock %}

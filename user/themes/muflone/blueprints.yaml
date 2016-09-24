@@ -1,0 +1,102 @@
+name: Muflone
+version: 0.1.0
+description: Products theme for Muflone based on Architect
+icon: heart-o
+author:
+  name: Muflone
+  email: webreg@vbsimple.net
+homepage: https://github.com/muflone/grav-muflone
+demo: http://www.muflone.com
+bugs: 
+readme: 
+license: GPL
+
+form:
+  validation: loose
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        tab_options:
+          type: tab
+          title: Options
+          fields:
+            dummy:
+              type: hidden
+              label: Dummy
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
+        tab_products:
+          type: tab
+          title: Products
+          fields:
+            products:
+              type: list
+              label: Products
+              help: Product names
+              fields:
+                .name:
+                  type: text
+                  label: Name
+                  help: Product name
+                .short_name:
+                  type: text
+                  label: Short name
+                  help: Short product name
+                .github:
+                  type: text
+                  label: Repository URL
+                  help: Github source repository
+                .translations:
+                  type: text
+                  label: Translations URL
+                  help: Translations page URL
+                .languages:
+                  type: selectize
+                  label: Languages
+                  help: Language names
+                  validate:
+                    type: commalist
+                .versions:
+                  type: list
+                  label: Versions
+                  help: Versions of the packages
+                  fields:
+                    .version:
+                      type: text
+                      label: Version
+                    .shortver:
+                      type: text
+                      label: Short version
+                    .packages:
+                      type: list
+                      label: Packages
+                      fields:
+                        .type:
+                          type: select
+                          label: Package type
+                          options:
+                            source: Source code
+                            debian: Debian
+                            debian32: Debian i386 (32 bit)
+                            debian64: Debian amd64 (64 bit)
+                            archlinux: Arch Linux
+                            archlinux32: Arch Linux i686 (32 bit)
+                            archlinux64: Arch Linux x86_64 (64 bit)
+                            aur: Arch Linux AUR
+                        .filename:
+                          type: text
+                          label: File name
+                        .size:
+                          type: int
+                          label: File size
+                        .md5sum:
+                          type: text
+                          label: MD5 Checksum

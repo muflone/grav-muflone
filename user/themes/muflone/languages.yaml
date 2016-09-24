@@ -1,0 +1,116 @@
+en:
+  THEME_MUFLONE:
+    IUBENDA_POLICY: 721463
+    CONTACTS: Contacts
+    TRANSLATIONS:
+      TITLE: Translations
+      TRANSLATED: %s is actually translated in the following languages:
+      TRANSLATORS_NEEDED: Translators are needed, please help in translating %s in others languages.
+      SUBMIT: Please submit your translations to <a href="%s" target="_blank">%s</a> or file an issue in <a href="%s/issues" target="_blank">GitHub bugtracker</a> or <a href="%s/pulls" target="_blank">pull a request on GitHub</a>.
+    DOWNLOADS:
+      TITLE: Downloads
+      LICENSE: %s is distributed as open source code <a href="%s" target="_blank">available on GitHub</a> under <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL-2+ license</a> (GNU General Public License</a> version 2 or higher).
+    DISTRIBUTIONS:
+      TITLE: Versions in the distributions
+      VERSIONS1: Some Linux distributions like Ubuntu and Debian could offer %s in their repositories but very often is an old version.
+      VERSIONS2: The release process for a software to reach the official repositories in the distributions is difficult and requires a lot of time.
+      VERSIONS3: The Latest available version is that one indicated in the <a href="%s/releases">releases page on GitHub</a>.
+    PACKAGES:
+      TITLE: Downloadable packages
+      PACKAGES1: The following are packages for different distributions.
+      PACKAGES2: Choose that more suitable for the distribution in use and refer to the page <a href="install.html">Installation</a> for information about their installation.
+      SOURCE: Source code
+      DEBIAN: Debian / Ubuntu
+      DEBIAN32: Debian i386 (32 bit)
+      DEBIAN64: Debian amd64 (64 bit)
+      ARCHLINUX: Arch Linux
+      ARCHLINUX32: Arch Linux i686 (32 bit)
+      ARCHLINUX64: Arch Linux x86_64 (64 bit)
+      AUR: Arch Linux AUR
+      DOWNLOADFROM: Download from
+    LANGUAGES:
+      ENGLISH:    English
+      FRENCH:     French
+      GERMAN:     German
+      HUNGARIAN:  Hungarian
+      ITALIAN:    Italian
+      RUSSIAN:    Russian
+      SPANISH:    Spanish
+      POLISH:     Polish
+      CATALAN:    Catalan
+      HEBREW:     Hebrew
+      BASQUE:     Basque
+      DUTCH:      Dutch
+      PORTOGUESE: Portoguese
+      SLOVAK:     Slovak
+      SLOVENIAN:  Slovenian
+      TURKISH:    Turkish
+      BULGARIAN:  Bulgarian
+      FAROESE:    Faroese
+      ARABIC:     Arabic
+      VIETNAMESE: Vietnamese
+      DANISH:     Danish
+      GREEK:      Greek
+      CHINESE:    Chinese
+      COLOMBIAN:  Colombian
+      SWEDISH:    Swedish
+      UKRAINIAN:  Ukrainian
+
+it:
+  THEME_MUFLONE:
+    IUBENDA_POLICY: 939201
+    CONTACTS: Contatti
+    TRANSLATIONS:
+      TITLE: Traduzioni
+      TRANSLATED: %s &egrave; attualmente tradotto nelle seguenti lingue:
+      TRANSLATORS_NEEDED: Sono richiesti traduttori, aiutaci a tradurre %s in altre lingue.
+      SUBMIT: Prego compila le tue traduzioni su <a href="%s" target="_blank">%s</a> oppure apri una richiesta sul sistema di <a href="%s/issues" target="_blank">segnalazioni su GitHub</a> oppure apri una <a href="%s/pulls" target="_blank">richiesta di pull su GitHub</a>.
+    DOWNLOADS:
+      TITLE: Scarica
+      LICENSE: %s viene distribuito sotto forma di codice sorgente aperto <a href="%s" target="_blank">disponibile su GitHub</a> sotto <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">licenza GNU GPL-2+</a> (GNU General Public License versione 2 o superiore).
+    DISTRIBUTIONS:
+      TITLE: Versioni nelle distribuzioni
+      VERSIONS1: Alcune distribuzioni Linux come Ubuntu e Debian possono fornire %s nei loro repository ma si tratta quasi sempre di versioni arretrate.
+      VERSIONS2: Il processo di rilascio di un software nei repository ufficiali delle distribuzioni &egrave; laborioso e richiede tanto tempo di aggiornamento.
+      VERSIONS3: L'ultima versione disponibile &egrave; quella presente nella <a href="%s/releases">pagina rilasci su GitHub</a>.
+    PACKAGES:
+      TITLE: Pacchetti da scaricare
+      PACKAGES1: Quelli qui riportati sono pacchetti per differenti distribuzioni.
+      PACKAGES2: Scegliere quello pi&ugrave; idoneo alla distribuzione che si utilizza e fare riferimento alla pagina <a href="install.html">Installazione</a> per informazioni sulla loro installazione.
+      SOURCE: Codice sorgente
+      DEBIAN: Debian / Ubuntu
+      DEBIAN32: Debian i386 (32 bit)
+      DEBIAN64: Debian amd64 (64 bit)
+      ARCHLINUX: Arch Linux
+      ARCHLINUX32: Arch Linux i686 (32 bit)
+      ARCHLINUX64: Arch Linux x86_64 (64 bit)
+      AUR: Arch Linux AUR
+      DOWNLOADFROM: Download from
+    LANGUAGES:
+      ENGLISH:    Inglese
+      FRENCH:     Francese
+      GERMAN:     Tedesco
+      HUNGARIAN:  Ungherese
+      ITALIAN:    Italiano
+      RUSSIAN:    Russo
+      SPANISH:    Spagnolo
+      POLISH:     Polacco
+      CATALAN:    Catalano
+      HEBREW:     Ebraico
+      BASQUE:     Basco
+      DUTCH:      Olandese
+      PORTOGUESE: Portoghese
+      SLOVAK:     Slovacco
+      SLOVENIAN:  Sloveno
+      TURKISH:    Turco
+      BULGARIAN:  Bulgaro
+      FAROESE:    Faroese
+      ARABIC:     Arabo
+      VIETNAMESE: Vietnamita
+      DANISH:     Danese
+      GREEK:      Greco
+      CHINESE:    Cinese
+      COLOMBIAN:  Colombiano
+      SWEDISH:    Svedese
+      UKRAINIAN:  Ucraino
+

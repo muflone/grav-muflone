@@ -1,0 +1,21 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block header %}
+    <header>
+      <div class="inner">
+        <a href="index.html"><img src="{{ url('resources/' ~ active_product.short_name ~ '/archive/latest/icon128.png') }}" style="padding-right: 20px;" align="left"></a>
+        <h1>{{ active_product.name }}</h1>
+        <h2>{{ page.title }}</h2>
+        <a href="{{ active_product.github }}" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+{% endblock %}
+
+{% block content %}
+    {{ page.content }}
+{% endblock %}
+
+{% block sidebar %}
+  {% include 'partials/sidebar.html.twig' %}
+{% endblock sidebar %}
+
