@@ -22,16 +22,12 @@ form:
           type: tab
           title: Options
           fields:
-            dummy:
-              type: hidden
-              label: Dummy
-              highlight: 1
-              default: 1
-              options:
-                1: PLUGIN_ADMIN.ENABLED
-                0: PLUGIN_ADMIN.DISABLED
-              validate:
-                type: bool
+            analytics_id:
+              type: text
+              label: Google Analytics ID
+            analytics_username:
+              type: text
+              label: Google Analytics user name
 
         tab_products:
           type: tab

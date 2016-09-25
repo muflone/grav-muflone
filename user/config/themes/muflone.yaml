@@ -1,4 +1,5 @@
-dummy: true
+analytics_id: UA-44039396-3
+analytics_username: muflone.com
 products:
   -
     name: Gespeaker
