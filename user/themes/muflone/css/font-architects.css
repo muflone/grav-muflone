@@ -4,5 +4,5 @@
   font-weight: 400;
   src: local('Architects Daughter'),
        local('ArchitectsDaughter'),
-       url(../fonts/architectsduaghter.ttf) format('truetype');
+       url('../fonts/architectsduaghter.ttf') format('truetype');
 }
