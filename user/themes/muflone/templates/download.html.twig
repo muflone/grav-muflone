@@ -40,13 +40,16 @@
                     <th colspan="2">Download</th>
                   </thead>
     {% for package in version.packages %}
-      {% set package_type = package.type %}
       {% if package.type == 'archlinux32' or package.type == 'archlinux64' or package.type == 'aur' %}
-        {% set package_type = "archlinux" %}
+        {% set package_type = 'archlinux' %}
+        {% set package_size = '-' %}
+      {% else %}
+        {% set package_type = package.type %}
+        {% set package_size = package.size ~ ' kB' %}
       {% endif %}
                   <tr>
                     <td class="type"><img src="{{ url('theme://images/' ~ package_type ~ '-32.png') }}"> {{ ('THEME_MUFLONE.PACKAGES.' ~ package.type|upper)|t }}</td>
-                    <td class="size">{{ package.size }} kB</td>
+                    <td class="size">{{ package_size }}</td>
                     <td class="md5sum">{{ package.md5sum | upper }}</td>
         {% if package.type == 'aur' %}
                     <td colspan="2"><a href="https://aur.archlinux.org/packages/{{ package.filename }}/"
