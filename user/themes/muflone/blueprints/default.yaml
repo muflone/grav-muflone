@@ -3,26 +3,3 @@ title: Default
     type: default
     context: blueprints://pages
 
-form:
-  fields:
-    tabs:
-      type: tabs
-      active: 1
-
-      fields:
-        advanced:
-          fields:
-            overrides:
-              fields:
-                header.product:
-                  type: text
-                  label: Product short name
-                  validate:
-                    required: true
-                header.depth:
-                  type: int
-                  label: Page depth
-                  default: 1
-                  validate:
-                    required: true
-
