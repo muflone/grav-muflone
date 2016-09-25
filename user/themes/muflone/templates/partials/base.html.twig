@@ -31,6 +31,7 @@
         {% do assets.addJs('jquery', 100) %}
     {% endblock %}
     {{ assets.js() }}
+    {% include 'partials/cookie_consent.html.twig' %}
 {% endblock head%}
 </head>
 <body>
