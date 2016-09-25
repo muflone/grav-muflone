@@ -1,6 +1,7 @@
 en:
   THEME_MUFLONE:
-    IUBENDA_POLICY: 721463
+    IUBENDA:
+      POLICY: 721463
     CONTACTS: Contacts
     TRANSLATIONS:
       TITLE: Translations
@@ -58,7 +59,8 @@ en:
 
 it:
   THEME_MUFLONE:
-    IUBENDA_POLICY: 939201
+    IUBENDA:
+      POLICY: 939201
     CONTACTS: Contatti
     TRANSLATIONS:
       TITLE: Traduzioni
