@@ -178,7 +178,7 @@ ul li {
 
 .inner {
   position: relative;
-  width: 940px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -189,7 +189,7 @@ ul li {
 }
 
 #main-content {
-  width: 690px; /* calc(100% - 230px); */
+  width: calc(100% - 230px);
   float: left;
 }
 
