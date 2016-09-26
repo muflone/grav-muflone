@@ -31,10 +31,10 @@ code, pre {
   font-family: 'Monaco', 'Bitstream Vera Sans Mono', 'Lucida Console', 'Terminal', 'monospace';
   color: #222;
   background-color: #E1E9EF;
-  margin-bottom: 30px;
   font-size: 13px;
-  border: solid 1px #626262;
-  padding: 0px 5px;
+  display: inline-block;
+  outline: outset 1px;
+  padding: 3px;
 }
 
 dl dd {
