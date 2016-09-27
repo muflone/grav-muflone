@@ -56,7 +56,7 @@
                       target="_blank">
                       <img src="{{ url('theme://images/archlinux-32.png') }}"></a></td>
         {% else %}
-                    <td><a href="{{ url('resources/' ~ active_product.short_name ~ '/archive/' ~ version.version ~ '/' ~ package.filename) }}"
+                    <td><a href="{{ url('resources/' ~ active_product.short_name ~ '/archive/v' ~ version.version ~ '/' ~ package.filename) }}"
                       title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} Muflone">
                       <img src="{{ url('theme://images/muflone-32.png') }}"></a></td>
                     <td><a href="{{ active_product.github  }}/releases/download/{{ version.version }}/{{ package.filename }}"
