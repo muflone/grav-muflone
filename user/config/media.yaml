@@ -176,7 +176,7 @@ types:
   gz:
     type: file
     thumb: media/thumb-gz.png
-    mime: application/gzip
+    mime: application/x-gzip
   tar:
     type: file
     mime: application/x-tar
@@ -192,3 +192,15 @@ types:
     type: file
     thumb: media/thumb-json.png
     mime: application/json
+  xz:
+    type: file
+    thumb: media/thumb-xz.png
+    mime: application/x-xz
+  deb:
+    type: file
+    thumb: media/thumb-deb.png
+    mime: application/vnd.debian.binary-package
+  rpm:
+    type: file
+    thumb: media/thumb-rpm.png
+    mime: application/x-rpm
