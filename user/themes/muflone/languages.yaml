@@ -6,6 +6,8 @@ en:
       DISMISS: Hide
       LEARN_MORE: More info
     CONTACTS: Contacts
+    REPO_OWNER: <a href="%s" target="_blank">%s</a> is developed by Muflone
+    THEME_INFO: This page uses the Architect theme by <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
     TRANSLATIONS:
       TITLE: Translations
       TRANSLATED: %s is actually translated in the following languages:
@@ -68,6 +70,8 @@ it:
       DISMISS: Hide
       LEARN_MORE: More info
     CONTACTS: Contatti
+    REPO_OWNER: <a href="%s" target="_blank">%s</a> è sviluppato da Muflone
+    THEME_INFO: Questa pagina usa il tema Architect di <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
     TRANSLATIONS:
       TITLE: Traduzioni
       TRANSLATED: %s &egrave; attualmente tradotto nelle seguenti lingue:
@@ -121,4 +125,3 @@ it:
       COLOMBIAN:  Colombiano
       SWEDISH:    Svedese
       UKRAINIAN:  Ucraino
-
