@@ -20,6 +20,7 @@ Not all distributions offer the packages of the various [MBROLA voices supported
 * [Ubuntu 14.10 Utopic Unicorn](ubuntu-1410)
 * [Ubuntu 15.04 Vivid Vervet](ubuntu-1504)
 * [Ubuntu 15.10 Wily Werewolf](ubuntu-1510)
+* [Ubuntu 16.04 Xenial Xerus](ubuntu-1604)
 * [Debian 6 Squeeze](debian-6)
 * [Debian 7 Wheezy](debian-7)
 * [Debian 8 Jessie](debian-8)
