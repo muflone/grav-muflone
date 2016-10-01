@@ -23,6 +23,7 @@
         {% do assets.addCss('theme://css/font-awesome.min.css', 99) %}
         {% do assets.addCss('theme://css/stylesheet.css', 98) %}
         {% do assets.addCss('theme://css/blockquotes.css', 97) %}
+        {% do assets.addCss('theme://css/blockquotes-' ~ grav.language.getActive ~ '.css', 97) %}
         {% do assets.addCss('theme://css/layout-footer.css', 90) %}
     {% endblock %}
     {{ assets.css() }}

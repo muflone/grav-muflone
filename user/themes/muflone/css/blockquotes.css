@@ -50,7 +50,6 @@ blockquote > blockquote > blockquote p:first-child:after {
   left: 20px;
   color: #fff;
   font-weight: bold;
-  content: 'Warning';
 }
 
 blockquote > blockquote > blockquote > p {
@@ -65,26 +64,14 @@ blockquote > blockquote > blockquote > blockquote > p {
   background: #FAE2E2;
 }
 
-blockquote > blockquote > blockquote > blockquote > p:first-child:after {
-  content: 'Error';
-}
-
 blockquote > blockquote > blockquote > blockquote > blockquote > p {
   margin-left: -118px;
   border-top: 30px solid #6AB0DE;
   background: #E7F2FA;
 }
 
-blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
-  content: 'Note';
-}
-
 blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
   margin-left: -142px;
   border-top: 30px solid rgba(92, 184, 92, 0.8);
   background: #E6F9E6;
-}
-
-blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
-  content: 'Tip';
 }
