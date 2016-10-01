@@ -66,9 +66,9 @@ it:
   THEME_MUFLONE:
     IUBENDA:
       POLICY: 939201
-      MESSAGE: This website uses cookies to make your browsing experience more convenient and personal. Cookies store useful information on your computer to help us improve the efficiency and relevance of our site for you. In some cases, they are essential to making the site work properly. By accessing this site, you consent to the use of cookies.
-      DISMISS: Hide
-      LEARN_MORE: More info
+      MESSAGE: Questo sito web utilizza i cookie per semplificare e personalizzare l'esperienza di navigazione. I cookie memorizzano informazioni utili sul computer per aiutarci a migliorare l'efficienza e la rilevanza del nostro sito. In alcuni casi sono essenziali per il corretto funzionamento del sito. L'accesso a questo sito implica il consenso all'utilizzo dei cookie.
+      DISMISS: Nascondi
+      LEARN_MORE: Leggi l'informativa completa
     CONTACTS: Contatti
     REPO_OWNER: <a href="%s" target="_blank">%s</a> è sviluppato da Muflone
     THEME_INFO: Questa pagina usa il tema Architect di <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
