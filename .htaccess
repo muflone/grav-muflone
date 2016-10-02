@@ -13,6 +13,25 @@ RewriteEngine On
 
 ## End - RewriteBase
 
+## Begin of custom aliases for my website
+#
+# Any product index go to the english index
+RewriteRule ^(.*)/index\.html$                                           /en/$1 [redirect=301,last]
+# MBROLA voices for Arch Linux
+RewriteRule ^(.*)/english/mbrola-archlinux\.html$                        /en/$1/mbrola-availability/archlinux [redirect=301,last]
+RewriteRule ^(.*)/italian/mbrola-archlinux\.html$                        /it/$1/mbrola-availability/archlinux [redirect=301,last]
+# MBROLA voices for Ubuntu, Debian and openSUSE
+RewriteRule ^(.*)/english/mbrola-(ubuntu|debian|opensuse)(.*)\.html$     /en/$1/mbrola-availability/$2-$3 [redirect=301,last]
+RewriteRule ^(.*)/italian/mbrola-(ubuntu|debian|opensuse)(.*)\.html$     /it/$1/mbrola-availability/$2-$3 [redirect=301,last]
+# Product internal pages
+RewriteRule ^(.*)/english/(.*)\.html$                                    /en/$1/$2 [redirect=301,last]
+RewriteRule ^(.*)/italian/(.*)\.html$                                    /it/$1/$2 [redirect=301,last]
+# Product index page
+RewriteRule ^(.*)/english/$                                              /en/$1/index [redirect=301,last]
+RewriteRule ^(.*)/italian/$                                              /it/$1/index [redirect=301,last]
+#
+## End of custom aliases
+
 ## Begin - Exploits
 # If you experience problems on your site block out the operations listed below
 # This attempts to block the most common type of exploit `attempts` to Grav
