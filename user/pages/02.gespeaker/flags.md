@@ -1,6 +1,6 @@
 ---
 title: Gespeaker
 product: gespeaker
-depth: 1
+depth: 0
 ---
 

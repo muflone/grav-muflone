@@ -1,25 +1,27 @@
         <aside id="sidebar">
+{% if page.header.depth > 0 %}
           <ul class="menu1">
-{% if page.header.depth == 2 %}
-  {% set starting_page = page.parent.parent.children %}
-{% else %}
-  {% set starting_page = page.parent.children %}
-{% endif %}
-{% for p in starting_page %}
-  {% if p.visible %}
-            <li class="menu1"><a href="{{ p.url }}">{{ p.title }}</a></li>
-    {% if p.children.count > 0 %}
-            <ul class="menu2">
-      {% for p in p.children %}
-        {% if p.visible %}
-            <li class="menu2"><a href="{{ p.url }}">{{ p.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-            </ul>
-    {% endif %}
+  {% if page.header.depth == 2 %}
+    {% set starting_page = page.parent.parent.children %}
+  {% else %}
+    {% set starting_page = page.parent.children %}
   {% endif %}
-{% endfor %}
+  {% for p in starting_page %}
+    {% if p.visible %}
+            <li class="menu1"><a href="{{ p.url }}">{{ p.title }}</a></li>
+      {% if p.children.count > 0 %}
+            <ul class="menu2">
+        {% for p in p.children %}
+          {% if p.visible %}
+            <li class="menu2"><a href="{{ p.url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+            </ul>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
           </ul>
+{% endif %}
           <p class="repo-owner">{{ 'THEME_MUFLONE.REPO_OWNER'|t(active_product.github, active_product.name) }}.</p>
           <p>{{ 'THEME_MUFLONE.THEME_INFO'|t }}</p>
         </aside>
