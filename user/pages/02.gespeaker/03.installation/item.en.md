@@ -13,11 +13,11 @@ It's possible to download the **deb** package from the [Download page](../downlo
 
 # Installation on Arch Linux and derivatives
 
-In the AUR you can find the latest available version, it can be downloaded and built using yaourt (or a similar AUR helper) using ```yaourt -S gespeaker``` and then following the AUR helper instructions.
+In the official **community repository** you can find the latest available version, it can be installed using the command ```pacman -S gespeaker```.
 
 The development version is also available in the AUR and can be installed using yaourt (or a similar AUR helper) with ```yaourt -S gespeaker-git```.
 
-For anyone which doesn't want to use AUR the **tar.xz** package can be downloaded from the [Download page](../download) and installed using:
+It's also possibile to download the **tar.xz** package from the [Download page](../download) and install it using:
 
 	cd "~/folder with the downloaded file"
     sudo pacman -U "file name.pkg.tar.xz"
