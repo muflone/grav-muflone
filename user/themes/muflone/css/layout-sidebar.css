@@ -13,6 +13,7 @@ aside ul li.menu1 {
 
 aside ul.menu2 {
   padding-left: 0px;
+  margin-bottom: 0px;
 }
 
 aside ul li.menu2:before {
