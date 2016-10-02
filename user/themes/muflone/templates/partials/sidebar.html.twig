@@ -22,6 +22,8 @@
   {% endfor %}
           </ul>
 {% endif %}
-          <p class="repo-owner">{{ 'THEME_MUFLONE.REPO_OWNER'|t(active_product.github, active_product.name) }}.</p>
-          <p>{{ 'THEME_MUFLONE.THEME_INFO'|t }}</p>
+          <div class="repo-owner">
+            <div>{{ 'THEME_MUFLONE.REPO_OWNER'|t(active_product.github, active_product.name) }}</div>
+            <div>{{ 'THEME_MUFLONE.THEME_INFO'|t }}</div>
+          </div>
         </aside>

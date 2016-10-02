@@ -39,8 +39,11 @@ aside#sidebar {
   line-height: 1.3;
 }
 
-aside#sidebar p.repo-owner,
-aside#sidebar p.repo-owner a {
+aside#sidebar div.repo-owner div {
+  margin-bottom: 1rem;
+}
+
+aside#sidebar div.repo-owner a {
   font-weight: bold;
 }
 
