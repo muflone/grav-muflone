@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="author" href="https://plus.google.com/+FabioCastelli"/>
     <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
-    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}" />
+    {% include 'partials/favicons.html.twig' with { 'product_name': active_product.short_name } %}
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
