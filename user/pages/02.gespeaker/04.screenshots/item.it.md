@@ -1,7 +1,7 @@
 ---
 title: Schermate
 product: gespeaker
-depth: '1'
+depth: 1
 ---
 
 # Finestra principale a dimensione intera

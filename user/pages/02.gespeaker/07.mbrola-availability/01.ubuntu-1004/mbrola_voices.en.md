@@ -1,7 +1,7 @@
 ---
 title: 'Ubuntu 10.04'
 product: gespeaker
-depth: '2'
+depth: 2
 ---
 
 # Supported MBROLA voices on Ubuntu 10.04 Lucid Lynx

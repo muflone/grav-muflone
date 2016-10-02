@@ -1,7 +1,7 @@
 ---
 title: 'Motore MBROLA'
 product: gespeaker
-depth: '1'
+depth: 1
 ---
 
 # Introduzione

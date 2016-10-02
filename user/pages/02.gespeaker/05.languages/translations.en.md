@@ -1,7 +1,7 @@
 ---
 title: 'Supported languages'
 product: gespeaker
-depth: '1'
+depth: 1
 ---
 
 # Supported voices by espeak
