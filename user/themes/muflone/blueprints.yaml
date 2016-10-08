@@ -32,6 +32,10 @@ form:
               type: text
               default: home
               label: Product folder for home
+            icon_footer:
+              type: text
+              default: favicon-32x32.png
+              label: Filename for icon on footer
 
         tab_products:
           type: tab
