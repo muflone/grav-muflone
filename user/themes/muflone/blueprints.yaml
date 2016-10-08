@@ -28,6 +28,10 @@ form:
             analytics_username:
               type: text
               label: Google Analytics user name
+            home_product:
+              type: text
+              default: home
+              label: Product folder for home
 
         tab_products:
           type: tab

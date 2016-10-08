@@ -3,7 +3,7 @@
     <div class="footer">
       <div id="icons">
         <a href="{{ url('home') }}">
-          <img src="{{ url('resources/home/icons/favicon-32x32.png') }}" title="Home">
+          <img src="{{ url('resources/' ~ theme_config.home_product ~ '/icons/favicon-32x32.png') }}" title="Home">
         </a>
   {% for product in theme_config.products %}
         <a href="{{ url(product.short_name) }}">
