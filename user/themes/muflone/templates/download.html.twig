@@ -37,32 +37,45 @@
                     <th>Package type</th>
                     <th>Size</th>
                     <th>MD5</th>
-                    <th colspan="2">Download</th>
+                    <th>Download</th>
                   </thead>
     {% for package in version.packages %}
-      {% if package.type == 'archlinux_i686' or package.type == 'archlinux_x86_64' or package.type == 'archlinux_aur' %}
+      {% set package_size = package.size ~ ' kB' %}
+      {% if package.type == 'archlinux_aur' %}
         {% set package_type = 'archlinux' %}
         {% set package_size = '-' %}
+      {% elseif package.type == 'archlinux_i686' or package.type == 'archlinux_x86_64' %}
+        {% set package_type = 'archlinux' %}
       {% else %}
         {% set package_type = package.type %}
-        {% set package_size = package.size ~ ' kB' %}
       {% endif %}
                   <tr>
                     <td class="type"><img src="{{ url('theme://images/' ~ package_type ~ '-32.png') }}"> {{ ('THEME_MUFLONE.PACKAGES.' ~ package.type|upper)|t }}</td>
                     <td class="size">{{ package_size }}</td>
                     <td class="md5sum">{{ package.md5sum | upper }}</td>
-        {% if package.type == 'archlinux_aur' %}
-                    <td colspan="2"><a href="https://aur.archlinux.org/packages/{{ package.filename }}/"
-                      target="_blank">
-                      <img src="{{ url('theme://images/archlinux-32.png') }}"></a></td>
-        {% else %}
-                    <td><a href="{{ url('resources/' ~ active_product.short_name ~ '/archive/v' ~ version.version ~ '/' ~ package.filename) }}"
+                    <td class="downloads">
+        {% for package_source in package.sources %}
+          {% if package_source == 'muflone' %}
+                    <a href="{{ url('resources/' ~ active_product.short_name ~ '/archive/v' ~ version.version ~ '/' ~ package.filename) }}"
                       title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} Muflone">
-                      <img src="{{ url('theme://images/muflone-32.png') }}"></a></td>
-                    <td><a href="{{ active_product.github  }}/releases/download/{{ version.version }}/{{ package.filename }}"
+                      <img src="{{ url('theme://images/muflone-32.png') }}"></a>
+          {% elseif package_source == 'github' %}
+                    <a href="{{ active_product.github  }}/releases/download/{{ version.version }}/{{ package.filename }}"
                       title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} GitHub">
-                      <img src="{{ url('theme://images/github-32.png') }}"></a></td>
-        {% endif %}
+                      <img src="{{ url('theme://images/github-32.png') }}"></a>
+          {% elseif package_source == 'archlinux' %}
+                    <a href="https://www.archlinux.org/packages/{{ active_product.short_name }}/" target="_blank"
+                      title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} Arch Linux">
+                      <img src="{{ url('theme://images/archlinux-32.png') }}"></a>
+          {% elseif package_source == 'aur' %}
+                    <a href="https://aur.archlinux.org/packages/{{ package.filename }}/" target="_blank"
+                      title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} Arch Linux AUR">
+                      <img src="{{ url('theme://images/archlinux-32.png') }}"></a>
+          {% else %}
+                    Undefined package source {{ package_source }}
+          {% endif %}
+        {% endfor %}
+                    </td>
                   </tr>
     {% endfor %}
                 </table>

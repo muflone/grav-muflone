@@ -104,3 +104,9 @@ form:
                         .md5sum:
                           type: text
                           label: MD5 Checksum
+                        .sources:
+                          type: selectize
+                          label: Package sources
+                          help: Valid values: muflone, github, archlinux, aur
+                          validate:
+                            type: commalist
