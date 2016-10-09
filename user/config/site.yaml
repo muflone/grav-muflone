@@ -10,5 +10,9 @@ summary:
   format: short
   size: 300
   delimiter: '==='
+redirects:
+  /gwakeonlan/wol_bios: /gwakeonlan/wol/bios
+  /gwakeonlan/wol_os: /gwakeonlan/wol/os
+  /gwakeonlan/wol_requirements: /gwakeonlan/wol/requirements
 blog:
   route: /blog
