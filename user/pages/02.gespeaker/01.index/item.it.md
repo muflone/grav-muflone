@@ -16,7 +16,7 @@ Per ascoltare alcuni esempio di voci registrate vedere la pagina [voci dimostrat
 
 # Installazione
 
-I rilasci delle versioni stabili con codice sorgente e pacchetti precompilati sono presenti nella [pagina Scarica](../download). Per informazioni sull'installazione da pacchetti o con codice sorgente fare riferimento alla [pagina Installazione](../installation).
+I rilasci delle versioni stabili con codice sorgente e pacchetti precompilati sono presenti nella [pagina Scarica](../download). Per informazioni sull'installazione da pacchetti o con codice sorgente fare riferimento alla [pagina Installazione](../install).
 
 Il codice sorgente di Gespeaker è [disponibile su Github](https://github.com/muflone/gespeaker) con la versione attualmente in sviluppo.
 

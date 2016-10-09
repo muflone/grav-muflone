@@ -16,7 +16,7 @@ To hear some samples of recorded voices please see the [demo voices](../demo) pa
 
 # Installation
 
-The stable versions released with source code and prebuilt packages are linked in the [Download page](../download). For information about installation from packages or source code please refer to the [Installation page](../installation).
+The stable versions released with source code and prebuilt packages are linked in the [Download page](../download). For information about installation from packages or source code please refer to the [Installation page](../install).
 
 The Gespeaker development version source code is [available on Github](https://github.com/muflone/gespeaker).
 

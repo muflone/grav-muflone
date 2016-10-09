@@ -10,7 +10,5 @@ summary:
   format: short
   size: 300
   delimiter: '==='
-redirects:
-  /gespeaker/install: /gespeaker/installation
 blog:
   route: /blog

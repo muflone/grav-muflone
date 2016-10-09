@@ -24,7 +24,7 @@ en:
     PACKAGES:
       TITLE: Downloadable packages
       PACKAGES1: The following are packages for different distributions.
-      PACKAGES2: Choose that more suitable for the distribution in use and refer to the page <a href="installation">Installation</a> for information about their installation.
+      PACKAGES2: Choose that more suitable for the distribution in use and refer to the page <a href="install">Installation</a> for information about their installation.
       SOURCE: Source code
       DEBIAN: Debian / Ubuntu
       DEBIAN32: Debian i386 (32 bit)
@@ -88,7 +88,7 @@ it:
     PACKAGES:
       TITLE: Pacchetti da scaricare
       PACKAGES1: Quelli qui riportati sono pacchetti per differenti distribuzioni.
-      PACKAGES2: Scegliere quello pi&ugrave; idoneo alla distribuzione che si utilizza e fare riferimento alla pagina <a href="installation">Installazione</a> per informazioni sulla loro installazione.
+      PACKAGES2: Scegliere quello pi&ugrave; idoneo alla distribuzione che si utilizza e fare riferimento alla pagina <a href="install">Installazione</a> per informazioni sulla loro installazione.
       SOURCE: Codice sorgente
       DEBIAN: Debian / Ubuntu
       DEBIAN32: Debian i386 (32 bit)
