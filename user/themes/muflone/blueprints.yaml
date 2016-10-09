@@ -93,7 +93,7 @@ form:
                             debian64: Debian amd64 (64 bit)
                             archlinux: Arch Linux
                             archlinux_i686: Arch Linux i686 (32 bit)
-                            archlinux64: Arch Linux x86_64 (64 bit)
+                            archlinux_x86_64: Arch Linux x86_64 (64 bit)
                             archlinux_aur: Arch Linux AUR
                         .filename:
                           type: text

@@ -31,7 +31,7 @@ en:
       DEBIAN64: Debian amd64 (64 bit)
       ARCHLINUX: Arch Linux
       ARCHLINUX_I686: Arch Linux i686 (32 bit)
-      ARCHLINUX64: Arch Linux x86_64 (64 bit)
+      ARCHLINUX_X86_64: Arch Linux x86_64 (64 bit)
       ARCHLINUX_AUR: Arch Linux AUR
       DOWNLOADFROM: Download from
     LANGUAGES:
@@ -95,7 +95,7 @@ it:
       DEBIAN64: Debian amd64 (64 bit)
       ARCHLINUX: Arch Linux
       ARCHLINUX_I686: Arch Linux i686 (32 bit)
-      ARCHLINUX64: Arch Linux x86_64 (64 bit)
+      ARCHLINUX_X86_64: Arch Linux x86_64 (64 bit)
       ARCHLINUX_AUR: Arch Linux AUR
       DOWNLOADFROM: Download from
     LANGUAGES:
