@@ -40,7 +40,7 @@
                     <th colspan="2">Download</th>
                   </thead>
     {% for package in version.packages %}
-      {% if package.type == 'archlinux32' or package.type == 'archlinux64' or package.type == 'archlinux_aur' %}
+      {% if package.type == 'archlinux_i686' or package.type == 'archlinux64' or package.type == 'archlinux_aur' %}
         {% set package_type = 'archlinux' %}
         {% set package_size = '-' %}
       {% else %}
