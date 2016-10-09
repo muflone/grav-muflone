@@ -15,8 +15,6 @@ RewriteEngine On
 
 ## Begin of custom aliases for my website
 #
-# Any product index go to the english index
-RewriteRule ^(.*)/index\.html$                                           /en/$1 [redirect=301,last]
 # MBROLA voices for Arch Linux
 RewriteRule ^(.*)/english/mbrola-archlinux\.html$                        /en/$1/mbrola-availability/archlinux [redirect=301,last]
 RewriteRule ^(.*)/italian/mbrola-archlinux\.html$                        /it/$1/mbrola-availability/archlinux [redirect=301,last]
@@ -29,6 +27,8 @@ RewriteRule ^(.*)/italian/(.*)\.html$                                    /it/$1/
 # Product index page
 RewriteRule ^(.*)/english/$                                              /en/$1/index [redirect=301,last]
 RewriteRule ^(.*)/italian/$                                              /it/$1/index [redirect=301,last]
+# Any product index go to the english index
+RewriteRule ^(.*)/index\.html$                                           /en/$1 [redirect=301,last]
 #
 ## End of custom aliases
 
