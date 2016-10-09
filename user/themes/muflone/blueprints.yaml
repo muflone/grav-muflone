@@ -94,7 +94,7 @@ form:
                             archlinux: Arch Linux
                             archlinux32: Arch Linux i686 (32 bit)
                             archlinux64: Arch Linux x86_64 (64 bit)
-                            aur: Arch Linux AUR
+                            archlinux_aur: Arch Linux AUR
                         .filename:
                           type: text
                           label: File name

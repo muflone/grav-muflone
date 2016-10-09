@@ -32,7 +32,7 @@ en:
       ARCHLINUX: Arch Linux
       ARCHLINUX32: Arch Linux i686 (32 bit)
       ARCHLINUX64: Arch Linux x86_64 (64 bit)
-      AUR: Arch Linux AUR
+      ARCHLINUX_AUR: Arch Linux AUR
       DOWNLOADFROM: Download from
     LANGUAGES:
       ENGLISH:    English
@@ -96,7 +96,7 @@ it:
       ARCHLINUX: Arch Linux
       ARCHLINUX32: Arch Linux i686 (32 bit)
       ARCHLINUX64: Arch Linux x86_64 (64 bit)
-      AUR: Arch Linux AUR
+      ARCHLINUX_AUR: Arch Linux AUR
       DOWNLOADFROM: Download from
     LANGUAGES:
       ENGLISH:    Inglese

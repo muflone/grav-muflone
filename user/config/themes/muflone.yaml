@@ -28,7 +28,7 @@ products:
       -
         version: 0.8.6
         shortver: v086
-        packages: [{ type: source, filename: gespeaker-0.8.6.tar.gz, size: 149, md5sum: DCCFED9A29393692E3FAB334541BC996 }, { type: debian, filename: gespeaker_0.8.6-1_all.deb, size: 123, md5sum: 429787EC6621F6836B5287583F5E6029 }, { type: archlinux, filename: gespeaker-0.8.6-1-any.pkg.tar.xz, size: 124, md5sum: 4B18FBD1178B151AE18D4FFA42893354 }, { type: aur, filename: gespeaker-git, size: 0, md5sum: '-' }]
+        packages: [{ type: source, filename: gespeaker-0.8.6.tar.gz, size: 149, md5sum: DCCFED9A29393692E3FAB334541BC996 }, { type: debian, filename: gespeaker_0.8.6-1_all.deb, size: 123, md5sum: 429787EC6621F6836B5287583F5E6029 }, { type: archlinux, filename: gespeaker-0.8.6-1-any.pkg.tar.xz, size: 124, md5sum: 4B18FBD1178B151AE18D4FFA42893354 }, { type: archlinux_aur, filename: gespeaker-git, size: 0, md5sum: '-' }]
       -
         version: 0.8.5
         shortver: v085
