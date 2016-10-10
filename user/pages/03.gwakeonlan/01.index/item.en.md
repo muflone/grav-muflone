@@ -48,4 +48,4 @@ Please submit your translations to [Transifex](https://www.transifex.com/project
 
 # License
 
-gWakeOnLAN is distributed as open source code [available on GitHub](https://github.com/muflone/gwakeonlan) under [GNU GPL-2+ license](https://www.gnu.org/licenses/gpl-2.0.html) (GNU General Public License version 2 or higher). The software is supplied as is and it doesn't offer any warranty. Anyone can fork the project, modify and distribute it under the same GNU GPL-2+ license. 
+gWakeOnLAN is distributed as open source code [available on GitHub](https://github.com/muflone/gwakeonlan) under [GNU GPL-2+ license](https://www.gnu.org/licenses/gpl-2.0.html) (GNU General Public License version 2 or higher). The software is supplied as is and it doesn't offer any warranty. Anyone can fork the project, modify and distribute it under the same GNU GPL-2+ license.

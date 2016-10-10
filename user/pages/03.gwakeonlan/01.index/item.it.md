@@ -6,7 +6,7 @@ depth: 1
 
 # Descrizione
 
-**gWakeOnLAN** è un'applicazione libera per accendere le macchine mediante il sistema [**Wake On LAN**](../wol) indipendentemente dal sistema operativo in esse installato..
+**gWakeOnLAN** è un'applicazione libera per accendere le macchine mediante il sistema [**Wake On LAN**](../wol) indipendentemente dal sistema operativo in esse installato.
 
 ![](/resources/gwakeonlan/archive/latest/italian/main.png?classes=center)
 
