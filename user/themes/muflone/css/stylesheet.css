@@ -27,14 +27,18 @@ body {
   color: #666;
 }
 
-code, pre {
+pre code {
+  padding: 5px 10px 5px 20px;
+}
+
+code {
   font-family: 'Monaco', 'Bitstream Vera Sans Mono', 'Lucida Console', 'Terminal', 'monospace';
   color: #222;
-  background-color: #E1E9EF;
+  background-color: #f2f8fc;
   font-size: 13px;
   display: inline-block;
-  outline: outset 1px;
-  padding: 3px;
+  padding: 3px 7px;
+  outline: solid 1px #cccccc;
 }
 
 dl dd {
