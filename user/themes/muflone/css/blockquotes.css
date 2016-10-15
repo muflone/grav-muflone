@@ -33,6 +33,7 @@ blockquote > blockquote > blockquote p {
   margin-top: 0rem;
   margin-bottom: 0rem;
   color: #666;
+  outline: solid 1px #cccccc;
 }
 
 blockquote > blockquote > blockquote p:first-child:before {
