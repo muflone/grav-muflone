@@ -41,16 +41,18 @@
                   </thead>
     {% for package in version.packages %}
       {% set package_size = package.size ~ ' kB' %}
+      {% set package_description = '' %}
       {% if package.type == 'archlinux_aur' %}
         {% set package_type = 'archlinux' %}
         {% set package_size = '-' %}
+        {% set package_description = ' (' ~ package.filename ~ ')' %}
       {% elseif package.type == 'archlinux_i686' or package.type == 'archlinux_x86_64' %}
         {% set package_type = 'archlinux' %}
       {% else %}
         {% set package_type = package.type %}
       {% endif %}
                   <tr>
-                    <td class="type"><img src="{{ url('theme://images/' ~ package_type ~ '-32.png') }}"> {{ ('THEME_MUFLONE.PACKAGES.' ~ package.type|upper)|t }}</td>
+                    <td class="type"><img src="{{ url('theme://images/' ~ package_type ~ '-32.png') }}"> {{ ('THEME_MUFLONE.PACKAGES.' ~ package.type|upper)|t }}{{ package_description }}</td>
                     <td class="size">{{ package_size }}</td>
                     <td class="md5sum">{{ package.md5sum | upper }}</td>
                     <td class="downloads">
