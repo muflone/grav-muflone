@@ -1,0 +1,30 @@
+name: Shortcode Muflone
+version: 0.1.0
+description: Shortcodes for the Muflone theme
+icon: code
+author:
+  name: Muflone
+  email: webreg@vbsimple.net
+homepage: 
+demo: 
+keywords: plugin, twig, shortcode, download, install, snippets
+bugs: 
+docs: 
+license: GPL
+
+dependencies:
+  - shortcode-core
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
