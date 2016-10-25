@@ -11,6 +11,9 @@ bugs:
 readme: 
 license: GPL
 
+dependencies:
+  - shortcode-muflone
+
 form:
   validation: loose
   fields:
