@@ -42,6 +42,4 @@ Translators are needed, please help in translating gWakeOnLAN in others language
 
 Please submit your translations to [Transifex](https://www.transifex.com/projects/p/gwakeonlan/) or file an issue in [GitHub bugtracker](https://github.com/muflone/gwakeonlan/issues) or [pull a request on GitHub](https://github.com/muflone/gwakeonlan/pulls).
 
-# License
-
-gWakeOnLAN is distributed as open source code [available on GitHub](https://github.com/muflone/gwakeonlan) under [GNU GPL-2+ license](https://www.gnu.org/licenses/gpl-2.0.html) (GNU General Public License version 2 or higher). The software is supplied as is and it doesn't offer any warranty. Anyone can fork the project, modify and distribute it under the same GNU GPL-2+ license.
+[muflone-license type="index" package="gwakeonlan" name="gWakeOnLAN"][/muflone-license]
