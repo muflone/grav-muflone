@@ -16,11 +16,7 @@ Dalla schermata principale basterà cliccare il pulsante aggiungi per inserire u
 
 Successivamente basterà spuntare le macchine che si desidera accendere e premere il pulsante **Accendi** per richiedere l'accensione delle macchine dalla rete.
 
-# Installazione
-
-I rilasci delle versioni stabili con codice sorgente e pacchetti precompilati sono presenti nella [pagina Scarica](../download). Per informazioni sull'installazione da pacchetti o con codice sorgente fare riferimento alla [pagina Installazione](../install).
-
-Il codice sorgente di gWakeOnLAN è [disponibile su Github](https://github.com/muflone/gwakeonlan) con la versione attualmente in sviluppo.
+[muflone-install type="index" package="gwakeonlan" name="gWakeOnLAN"][/muflone-install]
 
 # Traduzioni
 

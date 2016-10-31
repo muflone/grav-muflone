@@ -14,11 +14,7 @@ Il testo può essere letto con [tante lingue disponibili](../languages).
 
 Per ascoltare alcuni esempio di voci registrate vedere la pagina [voci dimostrative](../demo).
 
-# Installazione
-
-I rilasci delle versioni stabili con codice sorgente e pacchetti precompilati sono presenti nella [pagina Scarica](../download). Per informazioni sull'installazione da pacchetti o con codice sorgente fare riferimento alla [pagina Installazione](../install).
-
-Il codice sorgente di Gespeaker è [disponibile su Github](https://github.com/muflone/gespeaker) con la versione attualmente in sviluppo.
+[muflone-install type="index" package="gespeaker" name="Gespeaker"][/muflone-install]
 
 # Attivare il supporto vocale avanzato
 

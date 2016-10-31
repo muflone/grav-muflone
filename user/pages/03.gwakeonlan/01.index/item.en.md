@@ -16,11 +16,7 @@ From the main window you just need to click the add button to insert a new machi
 
 After that you can mark with a check the hosts you wish to turn on and then click the **Turn on** button to ask the machine to awake from the network.
 
-# Installation
-
-The stable versions released with source code and prebuilt packages are linked in the [Download page](../download). For information about installation from packages or source code please refer to the [Installation page](../install).
-
-The gWakeOnLAN development version source code is [available on Github](https://github.com/muflone/gwakeonlan).
+[muflone-install type="index" package="gwakeonlan" name="gWakeOnLAN"][/muflone-install]
 
 # Translations
 
