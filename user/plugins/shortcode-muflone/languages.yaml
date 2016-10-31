@@ -40,6 +40,15 @@ en:
           For information about installation from packages or source code
           please refer to the <a href="install">Installation page</a>.
         TEXT2: The %s development version source code is <a href="https://github.com/muflone/%s">available on Github</a>.
+    LICENSE:
+      INDEX:
+        TITLE: License
+        TEXT1: >
+          %s is distributed as open source code <a href="https://github.com/muflone/%s">available on Github</a>
+          under <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL-2+ license</a>
+          (GNU General Public License version 2 or higher).
+          The software is supplied as is and it doesn't offer any warranty.
+          Anyone can fork the project, modify and distribute it under the same GNU GPL-2+ license.
 
 it:
   PLUGIN_SHORTCODE_MUFLONE:
@@ -83,3 +92,12 @@ it:
           Per informazioni sull'installazione da pacchetti o con codice sorgente
           fare riferimento alla <a href="install">pagina Installazione</a>.
         TEXT2: Il codice sorgente di %s è <a href="https://github.com/muflone/%s">disponibile su Github</a> con la versione attualmente in sviluppo.
+    LICENSE:
+      INDEX:
+        TITLE: Licenza
+        TEXT1: >
+          %s viene distribuito sotto forma di codice sorgente aperto <a href="https://github.com/muflone/%s">disponibile su Github</a>
+          sotto <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">licenza GNU GPL-2+</a>
+          (GNU General Public License versione 2 o superiore).
+          Il software viene fornito così com'è e non è offerto alcun tipo di garanzia.
+          Chiunque può derivare il progetto, modificarlo e distribuirlo purchè il nuovo progetto derivato sia rilasciato sotto la stessa licenza GNU GPL-2+.
