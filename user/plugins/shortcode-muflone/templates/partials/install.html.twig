@@ -39,6 +39,11 @@
       </blockquote>
     </blockquote>
   </blockquote>
+{% elseif type == 'index' %}
+  <h1>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.INDEX.TITLE' | t }}</h1>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.INDEX.TEXT1' | t }}
+    {{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.INDEX.TEXT2' | t }}</p>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.INDEX.TEXT3' | t(name, package) }}</p>
 {% else %}
   <h1>Unexpected type {{ type }}</h1>
 {% endif %}

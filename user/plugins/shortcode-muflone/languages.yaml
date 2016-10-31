@@ -32,6 +32,11 @@ en:
           sudo xdg-icon-resource forceupdate
           sudo xdg-desktop-menu forceupdate
           cd ..
+      INDEX:
+        TITLE: Installation
+        TEXT1: The stable versions released with source code and prebuilt packages are linked in the <a href="download">Download page</a>.
+        TEXT2: For information about installation from packages or source code please refer to the <a href="install">Installation page</a>.
+        TEXT3: The %s development version source code is <a href="https://github.com/muflone/%s">available on Github</a>.
 
 it:
   PLUGIN_SHORTCODE_MUFLONE:
@@ -67,3 +72,8 @@ it:
           sudo xdg-icon-resource forceupdate
           sudo xdg-desktop-menu forceupdate
           cd ..
+      INDEX:
+        TITLE: Installazione
+        TEXT1: I rilasci delle versioni stabili con codice sorgente e pacchetti precompilati sono presenti nella <a href="download">pagina Scarica</a>.
+        TEXT2: Per informazioni sull'installazione da pacchetti o con codice sorgente fare riferimento alla <a href="install">pagina Installazione</a>.
+        TEXT3: Il codice sorgente di %s è <a href="https://github.com/muflone/%s">disponibile su Github</a> con la versione attualmente in sviluppo.
