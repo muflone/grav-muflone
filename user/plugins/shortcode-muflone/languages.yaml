@@ -44,7 +44,7 @@ en:
       INDEX:
         TITLE: License
         TEXT1: >
-          %s is distributed as open source code <a href="https://github.com/muflone/%s">available on GitHub</a>
+          <strong>%s</strong> is distributed as open source code <a href="https://github.com/muflone/%s">available on GitHub</a>
           under <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL-2+ license</a>
           (GNU General Public License version 2 or higher).
         TEXT2: >
@@ -106,7 +106,7 @@ it:
       INDEX:
         TITLE: Licenza
         TEXT1: >
-          %s viene distribuito sotto forma di codice sorgente aperto <a href="https://github.com/muflone/%s">disponibile su GitHub</a>
+          <strong>%s</strong> viene distribuito sotto forma di codice sorgente aperto <a href="https://github.com/muflone/%s">disponibile su GitHub</a>
           sotto <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">licenza GNU GPL-2+</a>
           (GNU General Public License versione 2 o superiore).
         TEXT2: >
