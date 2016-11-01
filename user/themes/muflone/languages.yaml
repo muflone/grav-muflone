@@ -10,7 +10,6 @@ en:
     THEME_INFO: This page uses the Architect theme by <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
     DOWNLOADS:
       TITLE: Downloads
-      LICENSE: %s is distributed as open source code <a href="%s" target="_blank">available on GitHub</a> under <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL-2+ license</a> (GNU General Public License</a> version 2 or higher).
     DISTRIBUTIONS:
       TITLE: Versions in the distributions
       VERSIONS1: Some Linux distributions like Ubuntu and Debian could offer %s in their repositories but very often is an old version.
@@ -69,7 +68,6 @@ it:
     THEME_INFO: Questa pagina usa il tema Architect di <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
     DOWNLOADS:
       TITLE: Scarica
-      LICENSE: %s viene distribuito sotto forma di codice sorgente aperto <a href="%s" target="_blank">disponibile su GitHub</a> sotto <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">licenza GNU GPL-2+</a> (GNU General Public License versione 2 o superiore).
     DISTRIBUTIONS:
       TITLE: Versioni nelle distribuzioni
       VERSIONS1: Alcune distribuzioni Linux come Ubuntu e Debian possono fornire %s nei loro repository ma si tratta quasi sempre di versioni arretrate.
