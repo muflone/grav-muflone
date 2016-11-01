@@ -60,7 +60,7 @@ form:
                 .github:
                   type: text
                   label: Repository URL
-                  help: Github source repository
+                  help: GitHub source repository
                 .translations:
                   type: text
                   label: Translations URL
