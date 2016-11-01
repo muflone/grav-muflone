@@ -142,3 +142,18 @@ products:
         version: '0.1'
         shortver: v010
         packages: [{ type: source, filename: bluewho-0.1.tar.gz, size: 187, md5sum: E263D2C77B704514FA5C1C97984CFD9D, sources: [muflone, github] }, { type: debian, filename: bluewho_0.1-1_all.deb, size: 175, md5sum: A6F61F7B6E689F583988A56BD02663C1, sources: [muflone, github] }, { type: archlinux, filename: bluewho-0.1-1-any.pkg.tar.xz, size: 164, md5sum: 3C01FE0ECA7D2EB6DD30F7AD1C1F4E3E, sources: [muflone, github] }]
+  -
+    name: CPUCompare
+    short_name: cpucompare
+    github: 'https://github.com/muflone/cpucompare'
+    languages:
+      - english
+    versions:
+      -
+        version: '0.6'
+        shortver: v060
+        packages: [{ type: source, filename: cpucompare-0.6.tar.gz, size: 75, md5sum: 34F5BC355A7A604991A1D96AD23C38E5, sources: [muflone, github] }, { type: archlinux, filename: cpucompare-0.6-1-any.pkg.tar.xz, size: 66, md5sum: 5803D45AD30EF75501680B939580864E, sources: [muflone, github] }, { type: archlinux_aur, filename: cpucompare, size: 0, md5sum: '-', sources: [aur] }, { type: archlinux_aur, filename: cpucompare-git, size: 0, md5sum: '-', sources: [aur] }]
+      -
+        version: '0.5'
+        shortver: v050
+        packages: [{ type: source, filename: cpucompare-0.5.tar.gz, size: 47, md5sum: AC11B06E51B55155435D5AE5BB474878, sources: [muflone, github] }, { type: archlinux, filename: cpucompare-0.5-3-any.pkg.tar.xz, size: 38, md5sum: 75725661DF27EC13F1713FADE1C233E1, sources: [muflone, github] }]
