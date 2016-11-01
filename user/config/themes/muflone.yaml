@@ -199,3 +199,53 @@ products:
         version: 0.2.0
         shortver: v020
         packages: [{ type: source, filename: gnome-appfolders-manager-0.2.0.tar.gz, size: 107, md5sum: 5d400e119d8d56c9ccac4501269cee81, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.2.0-1-any.pkg.tar.xz, size: 116, md5sum: d0989c7f654fee7d9f908c7ec628d449, sources: [muflone, github] }]
+  -
+    name: gpTrace
+    short_name: gptrace
+    github: 'https://github.com/muflone/gptrace'
+    translations: 'https://www.transifex.com/projects/p/gptrace/'
+    languages:
+      - english
+      - italian
+      - bulgarian
+    versions:
+      -
+        version: 0.4.2
+        shortver: v042
+        packages: [{ type: source, filename: gptrace-0.4.2.tar.gz, size: 147, md5sum: 1EF8D35073ACEA9069E5888A37322FEF, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.4.2-1-any.pkg.tar.xz, size: 156, md5sum: 00629359DC23A9A09665FCAB81EF1268, sources: [muflone, github] }, { type: archlinux_aur, filename: gptrace, size: 0, md5sum: '-', sources: [aur] }, { type: archlinux_aur, filename: gptrace-git, size: 0, md5sum: '-', sources: [aur] }]
+      -
+        version: 0.4.1
+        shortver: v041
+        packages: [{ type: source, filename: gptrace-0.4.1.tar.gz, size: 146, md5sum: 9AEBAC0776C51F27DCF73D10CC5EE783, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.4.1-1-any.pkg.tar.xz, size: 155, md5sum: 1A0AA0C53288D542010AF2B3A9B90384, sources: [muflone, github] }]
+      -
+        version: 0.4.0
+        shortver: v040
+        packages: [{ type: source, filename: gptrace-0.4.0.tar.gz, size: 145, md5sum: 5F934A3AE7C2563F3D2F4458467186EA, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.4.0-1-any.pkg.tar.xz, size: 153, md5sum: 46BAA09B465ADC755F0AD7B0E1D894AC, sources: [muflone, github] }]
+      -
+        version: 0.3.0
+        shortver: v030
+        packages: [{ type: source, filename: gptrace-0.3.0.tar.gz, size: 144, md5sum: 479A674BC19F1D0840568874ADDBD518, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.3.0-1-any.pkg.tar.xz, size: 150, md5sum: 17D7A7DFC12B2D30D83A295E7D9F5C10, sources: [muflone, github] }]
+      -
+        version: 0.2.0
+        shortver: v020
+        packages: [{ type: source, filename: gptrace-0.2.0.tar.gz, size: 142, md5sum: A55DFFA9B2B5E1ABF3475F442EB7A107, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.2.0-1-any.pkg.tar.xz, size: 148, md5sum: FD60256AA67B3F0B68484E65FE3AC24E, sources: [muflone, github] }]
+      -
+        version: 0.1.4
+        shortver: v014
+        packages: [{ type: source, filename: gptrace-0.1.4.tar.gz, size: 141, md5sum: C152C6EAF27401226DAF4A732A03DEED, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.1.4-1-any.pkg.tar.xz, size: 146, md5sum: 5C88B415AA62566AC4AA81553B787D2D, sources: [muflone, github] }]
+      -
+        version: 0.1.3
+        shortver: v013
+        packages: [{ type: source, filename: gptrace-0.1.3.tar.gz, size: 138, md5sum: 3DEA701C7AE58D38547D27995DC16139, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.1.3-1-any.pkg.tar.xz, size: 146, md5sum: 89D62BF8F1E5C1879EEB68D584AC727E, sources: [muflone, github] }]
+      -
+        version: 0.1.2
+        shortver: v012
+        packages: [{ type: source, filename: gptrace-0.1.2.tar.gz, size: 137, md5sum: 80F96D048D3B3C452CB7F52DAF82D0F3, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.1.2-1-any.pkg.tar.xz, size: 144, md5sum: 4CFBBD2AA8988DEA1044B8C58A3BA025, sources: [muflone, github] }]
+      -
+        version: 0.1.1
+        shortver: v011
+        packages: [{ type: source, filename: gptrace-0.1.1.tar.gz, size: 137, md5sum: D9A4E298CFE8C53B49243DB51DEE3A03, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.1.1-1-any.pkg.tar.xz, size: 143, md5sum: 4F4981E5C52839731BAFF8BCA28FB394, sources: [muflone, github] }]
+      -
+        version: 0.1.0
+        shortver: v010
+        packages: [{ type: source, filename: gptrace-0.1.0.tar.gz, size: 136, md5sum: E58057D00E476E23847F875A730CFC98, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.1.0-1-any.pkg.tar.xz, size: 142, md5sum: FCD4D301362F47B0EECD4A8FED7E3080, sources: [muflone, github] }]
