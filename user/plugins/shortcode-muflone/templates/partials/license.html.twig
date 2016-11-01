@@ -1,6 +1,7 @@
 {% if type == 'index' %}
   <h1>{{ 'PLUGIN_SHORTCODE_MUFLONE.LICENSE.INDEX.TITLE' | t }}</h1>
-  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.LICENSE.INDEX.TEXT1' | t(name, package) }}</p>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.LICENSE.INDEX.TEXT1' | t(name, package) }}
+    {{ 'PLUGIN_SHORTCODE_MUFLONE.LICENSE.INDEX.TEXT2' | t }}</p>
 {% else %}
   <h1>Unexpected type {{ type }}</h1>
 {% endif %}
