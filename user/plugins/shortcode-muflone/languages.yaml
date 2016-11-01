@@ -49,6 +49,15 @@ en:
           (GNU General Public License version 2 or higher).
           The software is supplied as is and it doesn't offer any warranty.
           Anyone can fork the project, modify and distribute it under the same GNU GPL-2+ license.
+    TRANSLATIONS:
+      INDEX:
+        TITLE: Translations
+        TEXT1: <strong>%s</strong> is actually translated in the following languages:
+        TEXT2: Translators are needed, please help in translating %s in others languages.
+        TEXT3: >
+          Please submit your translations to <a href="https://www.transifex.com/projects/p/%s/">Transifex</a>
+          or file an issue in <a href="https://github.com/muflone/%s/issues">GitHub bugtracker</a>
+          or <a href="https://github.com/muflone/%s/pulls">pull a request on GitHub</a>.
 
 it:
   PLUGIN_SHORTCODE_MUFLONE:
@@ -101,3 +110,12 @@ it:
           (GNU General Public License versione 2 o superiore).
           Il software viene fornito così com'è e non è offerto alcun tipo di garanzia.
           Chiunque può derivare il progetto, modificarlo e distribuirlo purchè il nuovo progetto derivato sia rilasciato sotto la stessa licenza GNU GPL-2+.
+    TRANSLATIONS:
+      INDEX:
+        TITLE: Traduzioni
+        TEXT1: <strong>%s</strong> è attualmente tradotto nelle seguenti lingue:
+        TEXT2: Sono richiesti traduttori, aiutaci a tradurre %s in altre lingue.
+        TEXT3: >
+          Prego compila le tue traduzioni su <a href="https://www.transifex.com/projects/p/%s/">Transifex</a>
+          oppure apri una richiesta sul sistema di <a href="https://github.com/muflone/%s/issues">segnalazioni di GitHub</a>
+          oppure apri una <a href="https://github.com/muflone/%s/pulls">richiesta di pull su GitHub</a>.
