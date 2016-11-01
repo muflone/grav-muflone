@@ -110,3 +110,35 @@ products:
         version: 0.3.1
         shortver: v031
         packages: [{ type: source, filename: gextractwinicons-0.3.1.tar.gz, size: 24, md5sum: 1598568B87D9FEA2DE96D79A87EE68C5, sources: [muflone, github] }, { type: debian, filename: gextractwinicons_0.3.1-1_all.deb, size: 19, md5sum: 914D5713B9121FBC7A130231D254F34A, sources: [muflone, github] }, { type: archlinux, filename: gextractwinicons-0.3.1-1-any.pkg.tar.xz, size: 17, md5sum: BC2243D00E9AD2A8141DBF1B5B126F62, sources: [muflone, github] }]
+  -
+    name: BlueWho
+    short_name: bluewho
+    github: 'https://github.com/muflone/bluewho'
+    translations: 'https://www.transifex.com/projects/p/bluewho/'
+    languages:
+      - english
+      - french
+      - italian
+      - german
+      - hungarian
+      - russian
+      - spanish
+      - bulgarian
+      - danish
+      - colombian
+      - hebrew
+      - dutch
+      - turkish
+    versions:
+      -
+        version: 0.2.1
+        shortver: v021
+        packages: [{ type: source, filename: bluewho-0.2.1.tar.gz, size: 328, md5sum: DF8AB67E21081BCDC3261596F56BC220, sources: [muflone, github] }, { type: archlinux, filename: bluewho-0.2.1-1-any.pkg.tar.xz, size: 320, md5sum: 5A4547E00A975143D39F6C47A6FFB32E, sources: [muflone, github] }, { type: archlinux_aur, filename: bluewho, size: 0, md5sum: '-', sources: [aur] }, { type: archlinux_aur, filename: bluewho-git, size: 0, md5sum: '-', sources: [aur] }]
+      -
+        version: '0.2'
+        shortver: v020
+        packages: [{ type: source, filename: bluewho-0.2.tar.gz, size: 318, md5sum: 658C4431E652DE5B05296C5D42DB4525, sources: [muflone, github] }, { type: archlinux, filename: bluewho-0.2-1-any.pkg.tar.xz, size: 314, md5sum: D1F9E42262E0E70C9E1457DBB5F03B64, sources: [muflone, github] }]
+      -
+        version: '0.1'
+        shortver: v010
+        packages: [{ type: source, filename: bluewho-0.1.tar.gz, size: 187, md5sum: E263D2C77B704514FA5C1C97984CFD9D, sources: [muflone, github] }, { type: debian, filename: bluewho_0.1-1_all.deb, size: 175, md5sum: A6F61F7B6E689F583988A56BD02663C1, sources: [muflone, github] }, { type: archlinux, filename: bluewho-0.1-1-any.pkg.tar.xz, size: 164, md5sum: 3C01FE0ECA7D2EB6DD30F7AD1C1F4E3E, sources: [muflone, github] }]
