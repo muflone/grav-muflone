@@ -157,3 +157,45 @@ products:
         version: '0.5'
         shortver: v050
         packages: [{ type: source, filename: cpucompare-0.5.tar.gz, size: 47, md5sum: AC11B06E51B55155435D5AE5BB474878, sources: [muflone, github] }, { type: archlinux, filename: cpucompare-0.5-3-any.pkg.tar.xz, size: 38, md5sum: 75725661DF27EC13F1713FADE1C233E1, sources: [muflone, github] }]
+  -
+    name: 'GNOME AppFolders Manager'
+    short_name: gnome-appfolders-manager
+    github: 'https://github.com/muflone/gnome-appfolders-manager'
+    translations: 'https://www.transifex.com/projects/p/gnome-appfolders-manager/'
+    languages:
+      - english
+      - italian
+      - french
+      - german
+      - chinese
+      - swedish
+      - ukrainian
+    versions:
+      -
+        version: 0.3.1
+        shortver: v031
+        packages: [{ type: source, filename: gnome-appfolders-manager-0.3.1.tar.gz, size: 114, md5sum: d425c9a908dcb829794b24c097706dae, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.3.1-1-any.pkg.tar.xz, size: 124, md5sum: 708f1e58555b3d4fb20ef89d7bba558b, sources: [muflone, github] }, { type: debian, filename: gnome-appfolders-manager_0.3.1-1_all.deb, size: 102, md5sum: ed08a0b7d96e017ef0ae344850010c12, sources: [muflone, github] }, { type: archlinux_aur, filename: gnome-appfolders-manager, size: 0, md5sum: '-', sources: [aur] }, { type: archlinux_aur, filename: gnome-appfolders-manager-git, size: 0, md5sum: '-', sources: [aur] }]
+      -
+        version: 0.3.0
+        shortver: v030
+        packages: [{ type: source, filename: gnome-appfolders-manager-0.3.0.tar.gz, size: 114, md5sum: 78d28319a16d5b0d3947b011166cf3da, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.3.0-1-any.pkg.tar.xz, size: 124, md5sum: a5af1e6ac821d72e722cb8917b8e5dd4, sources: [muflone, github] }]
+      -
+        version: 0.2.4
+        shortver: v024
+        packages: [{ type: source, filename: gnome-appfolders-manager-0.2.4.tar.gz, size: 111, md5sum: b347db8cd7f683b9dba16bb2df74ae9e, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.2.4-1-any.pkg.tar.xz, size: 121, md5sum: b2d34e0c57d115111ab8f39efeebf520, sources: [muflone, github] }]
+      -
+        version: 0.2.3
+        shortver: v023
+        packages: [{ type: source, filename: gnome-appfolders-manager-0.2.3.tar.gz, size: 110, md5sum: 772d5a3da68c5bed019ea4587e4ef9af, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.2.3-1-any.pkg.tar.xz, size: 120, md5sum: 327f324c5da6c42246f827a4329a2465, sources: [muflone, github] }]
+      -
+        version: 0.2.2
+        shortver: v022
+        packages: [{ type: source, filename: gnome-appfolders-manager-0.2.2.tar.gz, size: 110, md5sum: b9d8fe110cda51f8fcdf45c23996f099, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.2.2-1-any.pkg.tar.xz, size: 119, md5sum: b164c47fffdd3be8fb67131c96379f24, sources: [muflone, github] }]
+      -
+        version: 0.2.1
+        shortver: v021
+        packages: [{ type: source, filename: gnome-appfolders-manager-0.2.1.tar.gz, size: 109, md5sum: e759657e7d30dbe3dca2ec3c2c3b9bd5, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.2.1-1-any.pkg.tar.xz, size: 118, md5sum: 43df8d4dd8386dd18e97750ad8a194a2, sources: [muflone, github] }]
+      -
+        version: 0.2.0
+        shortver: v020
+        packages: [{ type: source, filename: gnome-appfolders-manager-0.2.0.tar.gz, size: 107, md5sum: 5d400e119d8d56c9ccac4501269cee81, sources: [muflone, github] }, { type: archlinux, filename: gnome-appfolders-manager-0.2.0-1-any.pkg.tar.xz, size: 116, md5sum: d0989c7f654fee7d9f908c7ec628d449, sources: [muflone, github] }]
