@@ -14,6 +14,18 @@ It's also possible to select which syscalls to intercept to include or exclude i
 
 ![](/resources/gptrace/archive/latest/english/expanded.png?classes=center)
 
+For each intercepted syscall you can see how many times a call is made.
+
+![](/resources/gptrace/archive/latest/english/counts.png?classes=center)
+
+You can also see a list of any requested file from the application, regardless if it existance.
+
+![](/resources/gptrace/archive/latest/english/files.png?classes=center)
+
+If the requested application makes use of external multiple processes you can see the list of any processes, including some basic information.
+
+![](/resources/gptrace/archive/latest/english/processes.png?classes=center)
+
 [muflone-install type="index" package="gptrace" name="gpTrace"][/muflone-install]
 
 [muflone-translations type="index" package="gptrace" name="gpTrace"]
