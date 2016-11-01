@@ -8,11 +8,6 @@ en:
     CONTACTS: Contacts
     REPO_OWNER: <a href="%s" target="_blank">%s</a> is developed by <a href="https://www.github.com/muflone" target="_blank">Muflone</a>.
     THEME_INFO: This page uses the Architect theme by <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
-    TRANSLATIONS:
-      TITLE: Translations
-      TRANSLATED: %s is actually translated in the following languages:
-      TRANSLATORS_NEEDED: Translators are needed, please help in translating %s in others languages.
-      SUBMIT: Please submit your translations to <a href="%s" target="_blank">%s</a> or file an issue in <a href="%s/issues" target="_blank">GitHub bugtracker</a> or <a href="%s/pulls" target="_blank">pull a request on GitHub</a>.
     DOWNLOADS:
       TITLE: Downloads
       LICENSE: %s is distributed as open source code <a href="%s" target="_blank">available on GitHub</a> under <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL-2+ license</a> (GNU General Public License</a> version 2 or higher).
@@ -72,11 +67,6 @@ it:
     CONTACTS: Contatti
     REPO_OWNER: <a href="%s" target="_blank">%s</a> è sviluppato da <a href="https://www.github.com/muflone" target="_blank">Muflone</a>.
     THEME_INFO: Questa pagina usa il tema Architect di <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
-    TRANSLATIONS:
-      TITLE: Traduzioni
-      TRANSLATED: %s &egrave; attualmente tradotto nelle seguenti lingue:
-      TRANSLATORS_NEEDED: Sono richiesti traduttori, aiutaci a tradurre %s in altre lingue.
-      SUBMIT: Prego compila le tue traduzioni su <a href="%s" target="_blank">%s</a> oppure apri una richiesta sul sistema di <a href="%s/issues" target="_blank">segnalazioni su GitHub</a> oppure apri una <a href="%s/pulls" target="_blank">richiesta di pull su GitHub</a>.
     DOWNLOADS:
       TITLE: Scarica
       LICENSE: %s viene distribuito sotto forma di codice sorgente aperto <a href="%s" target="_blank">disponibile su GitHub</a> sotto <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">licenza GNU GPL-2+</a> (GNU General Public License versione 2 o superiore).
