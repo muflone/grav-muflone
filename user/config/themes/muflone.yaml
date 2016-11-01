@@ -83,3 +83,30 @@ products:
         version: 0.5.1
         shortver: v051
         packages: [{ type: source, filename: gwakeonlan-0.5.1.tar.gz, size: 30, md5sum: 68BDE5820DB9C122EDF9E221797049FA, sources: [muflone, github] }, { type: debian, filename: gwakeonlan_0.5.1-1_all.deb, size: 25, md5sum: D267F4148769D66E5AF3D2CA93EEF8E2, sources: [muflone, github] }, { type: archlinux, filename: gwakeonlan-0.5.1-3-any.pkg.tar.xz, size: 27, md5sum: 9A6FE2FDF58AA7C72A7B4ABFE9A9704A, sources: [muflone, github] }]
+  -
+    name: gExtractWinIcons
+    short_name: gextractwinicons
+    github: 'https://github.com/muflone/gextractwinicons'
+    translations: 'https://www.transifex.com/projects/p/gextractwinicons/'
+    languages:
+      - english
+      - french
+      - italian
+      - hebrew
+      - spanish
+      - russian
+      - catalan
+      - bulgarian
+    versions:
+      -
+        version: 0.4.1
+        shortver: v041
+        packages: [{ type: source, filename: gextractwinicons-0.4.1.tar.gz, size: 63, md5sum: 52A3AD3CE477A9C6B9165D47510AF238, sources: [muflone, github] }, { type: archlinux, filename: gextractwinicons-0.4.1-1-any.pkg.tar.xz, size: 64, md5sum: 176F717F23897A1F4BF6B3A09D120CB0, sources: [muflone, github] }, { type: archlinux_aur, filename: gextractwinicons, size: 0, md5sum: '-', sources: [aur] }, { type: archlinux_aur, filename: gextractwinicons-git, size: 0, md5sum: '-', sources: [aur] }]
+      -
+        version: '0.4'
+        shortver: v040
+        packages: [{ type: source, filename: gextractwinicons-0.4.tar.gz, size: 61, md5sum: E9A6A6CDC7FC6B10E821B3790CA58E39, sources: [muflone, github] }, { type: archlinux, filename: gextractwinicons-0.4-1-any.pkg.tar.xz, size: 61, md5sum: 9654C8B8EF33F46F4C07EB5F0A88EB5A, sources: [muflone, github] }]
+      -
+        version: 0.3.1
+        shortver: v031
+        packages: [{ type: source, filename: gextractwinicons-0.3.1.tar.gz, size: 24, md5sum: 1598568B87D9FEA2DE96D79A87EE68C5, sources: [muflone, github] }, { type: debian, filename: gextractwinicons_0.3.1-1_all.deb, size: 19, md5sum: 914D5713B9121FBC7A130231D254F34A, sources: [muflone, github] }, { type: archlinux, filename: gextractwinicons-0.3.1-1-any.pkg.tar.xz, size: 17, md5sum: BC2243D00E9AD2A8141DBF1B5B126F62, sources: [muflone, github] }]
