@@ -39,12 +39,12 @@ en:
           are linked in the <a href="download">Download page</a>.
           For information about installation from packages or source code
           please refer to the <a href="install">Installation page</a>.
-        TEXT2: The %s development version source code is <a href="https://github.com/muflone/%s">available on GitHub</a>.
+        TEXT2: The %s development version source code is <a href="%s">available on GitHub</a>.
     LICENSE:
       INDEX:
         TITLE: License
         TEXT1: >
-          <strong>%s</strong> is distributed as open source code <a href="https://github.com/muflone/%s">available on GitHub</a>
+          <strong>%s</strong> is distributed as open source code <a href="%s">available on GitHub</a>
           under <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL-2+ license</a>
           (GNU General Public License version 2 or higher).
         TEXT2: >
@@ -56,9 +56,9 @@ en:
         TEXT1: <strong>%s</strong> is actually translated in the following languages:
         TEXT2: Translators are needed, please help in translating %s in others languages.
         TEXT3: >
-          Please submit your translations to <a href="https://www.transifex.com/projects/p/%s/">Transifex</a>
-          or file an issue in <a href="https://github.com/muflone/%s/issues">GitHub bugtracker</a>
-          or <a href="https://github.com/muflone/%s/pulls">pull a request on GitHub</a>.
+          Please submit your translations to <a href="%s">Transifex</a>
+          or file an issue in <a href="%s/issues">GitHub bugtracker</a>
+          or <a href="%s/pulls">pull a request on GitHub</a>.
 
 it:
   PLUGIN_SHORTCODE_MUFLONE:
@@ -101,12 +101,12 @@ it:
           precompilati sono presenti nella <a href="download">pagina Scarica</a>.
           Per informazioni sull'installazione da pacchetti o con codice sorgente
           fare riferimento alla <a href="install">pagina Installazione</a>.
-        TEXT2: Il codice sorgente di %s è <a href="https://github.com/muflone/%s">disponibile su GitHub</a> con la versione attualmente in sviluppo.
+        TEXT2: Il codice sorgente di %s è <a href="%s">disponibile su GitHub</a> con la versione attualmente in sviluppo.
     LICENSE:
       INDEX:
         TITLE: Licenza
         TEXT1: >
-          <strong>%s</strong> viene distribuito sotto forma di codice sorgente aperto <a href="https://github.com/muflone/%s">disponibile su GitHub</a>
+          <strong>%s</strong> viene distribuito sotto forma di codice sorgente aperto <a href="%s">disponibile su GitHub</a>
           sotto <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">licenza GNU GPL-2+</a>
           (GNU General Public License versione 2 o superiore).
         TEXT2: >
@@ -118,6 +118,6 @@ it:
         TEXT1: <strong>%s</strong> è attualmente tradotto nelle seguenti lingue:
         TEXT2: Sono richiesti traduttori, aiutaci a tradurre %s in altre lingue.
         TEXT3: >
-          Prego compila le tue traduzioni su <a href="https://www.transifex.com/projects/p/%s/">Transifex</a>
-          oppure apri una richiesta sul sistema di <a href="https://github.com/muflone/%s/issues">segnalazioni di GitHub</a>
-          oppure apri una <a href="https://github.com/muflone/%s/pulls">richiesta di pull su GitHub</a>.
+          Prego compila le tue traduzioni su <a href="%s">Transifex</a>
+          oppure apri una richiesta sul sistema di <a href="%s/issues">segnalazioni di GitHub</a>
+          oppure apri una <a href="%s/pulls">richiesta di pull su GitHub</a>.

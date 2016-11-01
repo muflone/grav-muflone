@@ -16,6 +16,8 @@ class ShortcodeMufloneInstall extends Shortcode
                 'type' => $sc->getParameter('type', ''),
                 'name' => $sc->getParameter('name', ''),
                 'package' => $sc->getParameter('package', ''),
+                'github' => 'https://github.com/muflone/' . $sc->getParameter('package', '') . '/',
+                'transifex' => 'https://www.transifex.com/projects/p/' . $sc->getParameter('package', '') . '/',
                 'aurpackage' => $sc->getParameter('aurpackage', ''),
                 'development' => $sc->getParameter('development', ''),
              ]);
