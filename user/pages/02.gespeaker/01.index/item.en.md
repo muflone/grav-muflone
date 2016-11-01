@@ -22,10 +22,7 @@ Since version 0.6 it supports the speech synthesizer MBROLA for a better speech 
 
 See the [MBROLA](../mbrola) page for instructions on enable the enhanced MBROLA voice support.
 
-# Translations
-
-Gespeaker is actually translated in the [following languages](../languages):
-
+[muflone-translations type="index" package="gespeaker" name="Gespeaker"]
 * English
 * French
 * Italian
@@ -42,8 +39,6 @@ Gespeaker is actually translated in the [following languages](../languages):
 * Turkish
 * Chinese
 
-Translators are needed, please help in translating Gespeaker in others languages.
-
-Please submit your translations to [Transifex](https://www.transifex.com/projects/p/gespeaker/) or file an issue in [GitHub bugtracker](https://github.com/muflone/gespeaker/issues) or [pull a request on GitHub](https://github.com/muflone/gespeaker/pulls).
+[/muflone-translations]
 
 [muflone-license type="index" package="gespeaker" name="Gespeaker"][/muflone-license]

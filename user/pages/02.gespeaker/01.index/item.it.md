@@ -22,10 +22,7 @@ Dalla versione 0.6 Gespeaker supporta il sintetizzatore vocale MBROLA per una mi
 
 Consultare la pagina [MBROLA](../mbrola) per istruzioni su come attivare il supporto vocale avanzato MBROLA.
 
-# Traduzioni
-
-Gespeaker è attualmente tradotto nelle [seguenti lingue](../languages):
-
+[muflone-translations type="index" package="gespeaker" name="Gespeaker"]
 * Inglese
 * Francese
 * Italiano
@@ -42,8 +39,6 @@ Gespeaker è attualmente tradotto nelle [seguenti lingue](../languages):
 * Turco
 * Cinese
 
-Sono richiesti traduttori, aiutaci a tradurre Gespeaker in altre lingue.
-
-Prego compila le tue traduzioni su [Transifex](https://www.transifex.com/projects/p/gespeaker/) oppure apri una richiesta sul sistema di [segnalazioni di GitHub](https://github.com/muflone/gespeaker/issues) oppure apri una [richiesta di pull su GitHub](https://github.com/muflone/gespeaker/pulls).
+[/muflone-translations]
 
 [muflone-license type="index" package="gespeaker" name="Gespeaker"][/muflone-license]

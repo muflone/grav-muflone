@@ -18,10 +18,7 @@ After that you can mark with a check the hosts you wish to turn on and then clic
 
 [muflone-install type="index" package="gwakeonlan" name="gWakeOnLAN"][/muflone-install]
 
-# Translations
-
-gWakeOnLAN is actually translated in the [following languages](../languages):
-
+[muflone-translations type="index" package="gwakeonlan" name="gWakeOnLAN"]
 * English
 * French
 * Italian
@@ -38,8 +35,6 @@ gWakeOnLAN is actually translated in the [following languages](../languages):
 * Turkish
 * Bulgarian
 
-Translators are needed, please help in translating gWakeOnLAN in others languages.
-
-Please submit your translations to [Transifex](https://www.transifex.com/projects/p/gwakeonlan/) or file an issue in [GitHub bugtracker](https://github.com/muflone/gwakeonlan/issues) or [pull a request on GitHub](https://github.com/muflone/gwakeonlan/pulls).
+[/muflone-translations]
 
 [muflone-license type="index" package="gwakeonlan" name="gWakeOnLAN"][/muflone-license]

@@ -18,10 +18,7 @@ Successivamente basterà spuntare le macchine che si desidera accendere e premer
 
 [muflone-install type="index" package="gwakeonlan" name="gWakeOnLAN"][/muflone-install]
 
-# Traduzioni
-
-gWakeOnLAN è attualmente tradotto nelle [seguenti lingue](../languages):
-
+[muflone-translations type="index" package="gwakeonlan" name="gWakeOnLAN"]
 * Inglese
 * Francese
 * Italiano
@@ -38,8 +35,6 @@ gWakeOnLAN è attualmente tradotto nelle [seguenti lingue](../languages):
 * Turco
 * Bulgaro
 
-Sono richiesti traduttori, aiutaci a tradurre gWakeOnLAN in altre lingue.
-
-Prego compila le tue traduzioni su [Transifex](https://www.transifex.com/projects/p/gwakeonlan/) oppure apri una richiesta sul sistema di [segnalazioni di GitHub](https://github.com/muflone/gwakeonlan/issues) oppure apri una [richiesta di pull su GitHub](https://github.com/muflone/gwakeonlan/pulls).
+[/muflone-translations]
 
 [muflone-license type="index" package="gwakeonlan" name="gWakeOnLAN"][/muflone-license]
