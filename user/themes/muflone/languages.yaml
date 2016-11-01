@@ -14,7 +14,7 @@ en:
       TITLE: Versions in the distributions
       VERSIONS1: Some Linux distributions like Ubuntu and Debian could offer %s in their repositories but very often is an old version.
       VERSIONS2: The release process for a software to reach the official repositories in the distributions is difficult and requires a lot of time.
-      VERSIONS3: The Latest available version is that one indicated in the <a href="%s/releases">releases page on GitHub</a>.
+      VERSIONS3: The Latest available version is that one indicated in the <a href="%s/releases" target="_blank">releases page on GitHub</a>.
     PACKAGES:
       TITLE: Downloadable packages
       PACKAGES1: The following are packages for different distributions.
@@ -72,7 +72,7 @@ it:
       TITLE: Versioni nelle distribuzioni
       VERSIONS1: Alcune distribuzioni Linux come Ubuntu e Debian possono fornire %s nei loro repository ma si tratta quasi sempre di versioni arretrate.
       VERSIONS2: Il processo di rilascio di un software nei repository ufficiali delle distribuzioni &egrave; laborioso e richiede tanto tempo di aggiornamento.
-      VERSIONS3: L'ultima versione disponibile &egrave; quella presente nella <a href="%s/releases">pagina rilasci su GitHub</a>.
+      VERSIONS3: L'ultima versione disponibile &egrave; quella presente nella <a href="%s/releases" target="_blank">pagina rilasci su GitHub</a>.
     PACKAGES:
       TITLE: Pacchetti da scaricare
       PACKAGES1: Quelli qui riportati sono pacchetti per differenti distribuzioni.
