@@ -39,6 +39,27 @@
       </blockquote>
     </blockquote>
   </blockquote>
+{% elseif type == 'remmina-plugin-builder' %}
+  {# Installation type for source code using Remmina Plugin Builder #}
+  <h1>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.REMMINA_PLUGIN_BUILDER.TITLE' | t }}</h1>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.REMMINA_PLUGIN_BUILDER.TEXT1' | t(name) }}</p>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.REMMINA_PLUGIN_BUILDER.TEXT2' | t(name) }}</p>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.REMMINA_PLUGIN_BUILDER.TEXT3' | t(name) }}</p>
+  <pre>
+    <code>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.REMMINA_PLUGIN_BUILDER.COMMANDS1' | t(package) }}</code>
+  </pre>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.REMMINA_PLUGIN_BUILDER.TEXT4' | t(name) }}</p>
+  <pre>
+    <code>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.REMMINA_PLUGIN_BUILDER.COMMANDS2' | t(package) }}</code>
+  </pre>
+  <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.SOURCE.TEXT2' | t }}</p>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.SOURCE.TEXT3' | t }}</p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
 {% elseif type == 'index' %}
   <h1>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.INDEX.TITLE' | t }}</h1>
   <p>{{ 'PLUGIN_SHORTCODE_MUFLONE.INSTALL.INDEX.TEXT1' | t }}</p>

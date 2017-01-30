@@ -40,6 +40,26 @@ en:
           For information about installation from packages or source code
           please refer to the <a href="install">Installation page</a>.
         TEXT2: The %s development version source code is <a href="%s" target="_blank">available on GitHub</a>.
+      REMMINA_PLUGIN_BUILDER:
+        TITLE: Installation from source code
+        TEXT1: To build %s from the source code you will need also <strong>Remmina Plugin Builder</strong>, a minimal development environment to build plugins for Remmina.
+        TEXT2: Download Remmina Plugin Builder from the <a href="../remmina-plugin-builder/index">Project page</a> and refer to the <a href=../remmina-plugin-builder/install>Installation page</a>.
+        TEXT3: The building process simply needs the extraction of both Remmina Plugin Builder and %s source code using:
+        COMMANDS1: |
+          cd "~/folder with the downloaded files"
+          tar xzf remmina-plugin-builder-*.tar.gz
+          tar xzf %s-*.tar.gz
+        TEXT4: Next you will need to compile the plugin using:
+        COMMANDS2: |
+          mkdir build
+          cp -r remmina-plugin-builder-*/* build
+          cp -r %s-*/* build/remmina-plugin-to-build
+          cd build
+          cmake -DCMAKE_INSTALL_PREFIX=/usr .
+          make
+          sudo make install
+          sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+          cd ..
     LICENSE:
       INDEX:
         TITLE: License
@@ -102,6 +122,26 @@ it:
           Per informazioni sull'installazione da pacchetti o con codice sorgente
           fare riferimento alla <a href="install">pagina Installazione</a>.
         TEXT2: Il codice sorgente di %s è <a href="%s" target="_blank">disponibile su GitHub</a> con la versione attualmente in sviluppo.
+      REMMINA_PLUGIN_BUILDER:
+        TITLE: Installazione dal codice sorgente
+        TEXT1: Per compilare %s dal codice sorgente è necessario avere anche <strong>Remmina Plugin Builder</strong>, un ambiente di sviluppo minimale per la compilazione di plugin per Remmina.
+        TEXT2: Scaricare Remmina Plugin Builder dalla <a href="../remmina-plugin-builder/index">pagina del progetto</a> e fare riferimento alla <a href=../remmina-plugin-builder/install>pagina Installazione</a>.
+        TEXT3: Il processo di compilazione richiede semplicemente l'estrazione del codice sorgente sia di Remmina Plugin Builder sia di %s utilizzando:
+        COMMANDS1: |
+          cd "~/cartella con il file scaricato"
+          tar xzf remmina-plugin-builder-*.tar.gz
+          tar xzf %s-*.tar.gz
+        TEXT4: Quindi sarà necessario compilare il plugin con:
+        COMMANDS2: |
+          mkdir build
+          cp -r remmina-plugin-builder-*/* build
+          cp -r %s-*/* build/remmina-plugin-to-build
+          cd build
+          cmake -DCMAKE_INSTALL_PREFIX=/usr .
+          make
+          sudo make install
+          sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+          cd ..
     LICENSE:
       INDEX:
         TITLE: Licenza
