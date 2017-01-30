@@ -317,3 +317,24 @@ products:
         version: 1.0.0.0
         shortver: v1000
         packages: [{ type: source, filename: remmina-plugin-open-1.0.0.0.tar.gz, size: 10, md5sum: 0259139B3DB94314FB765F4AE7FB920E, sources: [muflone, github] }]
+  -
+    name: 'Remmina Plugin RDesktop'
+    short_name: remmina-plugin-rdesktop
+    github: 'https://github.com/muflone/remmina-plugin-rdesktop'
+    versions:
+      -
+        version: 1.0.0.3
+        shortver: v1003
+        packages: [{ type: source, filename: remmina-plugin-rdesktop-1.0.0.3.tar.gz, size: 13, md5sum: 6B882C27235750BB49A5B2B1BEDD0596, sources: [muflone, github] }, { type: debian32, filename: remmina-plugin-rdesktop_1.0.0.3-1_i386.deb, size: 10, md5sum: 82E02BE7F940ABF851CE03B75AF66CD2, sources: [muflone, github] }, { type: debian64, filename: remmina-plugin-rdesktop_1.0.0.3-1_amd64.deb, size: 11, md5sum: 23BFC80C5E8CDF5A8BEBFDA50D5BB207, sources: [muflone, github] }, { type: archlinux_i686, filename: remmina-plugin-rdesktop-1.0.0.3-1-i686.pkg.tar.xz, size: 8, md5sum: 530666A52308201098B6095C76283BD6, sources: [muflone, github] }, { type: archlinux_x86_64, filename: remmina-plugin-rdesktop-1.0.0.3-1-x86_64.pkg.tar.xz, size: 9, md5sum: CE86623FA2DAF83A17C6C6DFB31D1EFC, sources: [muflone, github] }, { type: archlinux_aur, filename: remmina-plugin-rdesktop, size: 0, md5sum: '-', sources: [aur] }]
+      -
+        version: 1.0.0.2
+        shortver: v1002
+        packages: [{ type: source, filename: remmina-plugin-rdesktop-1.0.0.2.tar.gz, size: 13, md5sum: 7F5BC5568CC097378FB50456E7B7D09A, sources: [muflone, github] }]
+      -
+        version: 1.0.0.1
+        shortver: v1001
+        packages: [{ type: source, filename: remmina-plugin-rdesktop-1.0.0.1.tar.gz, size: 13, md5sum: 990CDF17E5C3CA399CA932F3DCAA5903, sources: [muflone, github] }]
+      -
+        version: 1.0.0.0
+        shortver: v1000
+        packages: [{ type: source, filename: remmina-plugin-rdesktop-1.0.0.0.tar.gz, size: 13, md5sum: 66E25B76949CE6C11897F7992CD0FD27, sources: [muflone, github] }]
