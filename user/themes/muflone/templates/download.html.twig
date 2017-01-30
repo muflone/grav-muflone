@@ -48,6 +48,8 @@
         {% set package_description = ' (' ~ package.filename ~ ')' %}
       {% elseif package.type == 'archlinux_i686' or package.type == 'archlinux_x86_64' %}
         {% set package_type = 'archlinux' %}
+      {% elseif package.type == 'debian32' or package.type == 'debian64' %}
+        {% set package_type = 'debian' %}
       {% else %}
         {% set package_type = package.type %}
       {% endif %}
