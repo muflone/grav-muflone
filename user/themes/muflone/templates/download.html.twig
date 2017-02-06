@@ -64,7 +64,11 @@
                       title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} Muflone">
                       <img src="{{ url('theme://images/muflone-32.png') }}"></a>
           {% elseif package_source == 'github' %}
+            {% if package.type == 'source' %}
+                    <a href="{{ active_product.github  }}/archive/{{ version.version }}.tar.gz"
+            {% else %}
                     <a href="{{ active_product.github  }}/releases/download/{{ version.version }}/{{ package.filename }}"
+            {% endif %}
                       title="{{ 'THEME_MUFLONE.PACKAGES.DOWNLOADFROM'|t }} GitHub">
                       <img src="{{ url('theme://images/github-32.png') }}"></a>
           {% elseif package_source == 'archlinux' %}
