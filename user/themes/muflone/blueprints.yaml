@@ -1,5 +1,5 @@
 name: Muflone
-version: 0.1.0
+version: 0.1.1
 description: Products theme for Muflone based on Architect
 icon: heart-o
 author:
@@ -57,6 +57,14 @@ form:
                   type: text
                   label: Short name
                   help: Short product name
+                .description:
+                  type: text
+                  label: Description
+                  help: Product description
+                .description_it:
+                  type: text
+                  label: Description (IT)
+                  help: Product description in Italian language
                 .github:
                   type: text
                   label: Repository URL

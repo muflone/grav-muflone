@@ -6,6 +6,8 @@ products:
   -
     name: Gespeaker
     short_name: gespeaker
+    description: 'Listen the written text in various languages with settings for voices, speech, volume and speed.'
+    description_it: 'Ascolta il testo scritto in varie lingue con impostazioni per voce, intonazione, volume e velocità.'
     github: 'https://github.com/muflone/gespeaker'
     translations: 'https://www.transifex.com/projects/p/gespeaker/'
     languages:
@@ -48,6 +50,8 @@ products:
   -
     name: gWakeOnLan
     short_name: gwakeonlan
+    description: 'Turn on your machines in local network or through the Internet using the Wake On LAN system.'
+    description_it: 'Accendi le tue macchine in rete locale oppure attraverso Internet usando il sistema Wake On LAN.'
     github: 'https://github.com/muflone/gwakeonlan'
     translations: 'https://www.transifex.com/projects/p/gwakeonlan/'
     languages:
@@ -86,6 +90,8 @@ products:
   -
     name: gExtractWinIcons
     short_name: gextractwinicons
+    description: 'Extract cursors, icons and images from MS Windows resources files (like .exe, .dll, .ocx and .cpl).'
+    description_it: 'Estrai cursori, icone e immagini da file di risorse per Microsoft Windows (come .exe, .dll, .ocx e .cpl).'
     github: 'https://github.com/muflone/gextractwinicons'
     translations: 'https://www.transifex.com/projects/p/gextractwinicons/'
     languages:
@@ -113,6 +119,8 @@ products:
   -
     name: BlueWho
     short_name: bluewho
+    description: 'Find Bluetooth devices near you and receive notifications when a new device is detected.'
+    description_it: 'Ricerca dispositivi Bluetooth nelle vicinanze e ricevi le notifiche quando un nuovo dispositivo viene rilevato.'
     github: 'https://github.com/muflone/bluewho'
     translations: 'https://www.transifex.com/projects/p/bluewho/'
     languages:
@@ -145,6 +153,8 @@ products:
   -
     name: CPUCompare
     short_name: cpucompare
+    description: 'Compare between a large number of CPU models to find those of your interest.'
+    description_it: 'Esegui confronti tra numerosi modelli di CPU per trovare quelle di tuo interesse.'
     github: 'https://github.com/muflone/cpucompare'
     languages:
       - english
@@ -160,6 +170,8 @@ products:
   -
     name: 'GNOME AppFolders Manager'
     short_name: gnome-appfolders-manager
+    description: 'Create and edit applications folders (AppFolders) for GNOME Shell.'
+    description_it: 'Creare e modificare le cartelle delle applicazioni (AppFolders) su GNOME Shell.'
     github: 'https://github.com/muflone/gnome-appfolders-manager'
     translations: 'https://www.transifex.com/projects/p/gnome-appfolders-manager/'
     languages:
@@ -202,6 +214,8 @@ products:
   -
     name: gpTrace
     short_name: gptrace
+    description: 'Trace the activities of an external application.'
+    description_it: 'Traccia le attivita di un''applicazione esterna.'
     github: 'https://github.com/muflone/gptrace'
     translations: 'https://www.transifex.com/projects/p/gptrace/'
     languages:
@@ -252,6 +266,8 @@ products:
   -
     name: gTransMemory
     short_name: gtransmemory
+    description: 'Manage words and sentences translations in many memories for each language for translators.'
+    description_it: 'Gestire le traduzioni di parole e frasi in più memorie per ciascuna lingua per traduttori.'
     github: 'https://github.com/muflone/gtransmemory'
     translations: 'https://www.transifex.com/projects/p/gtransmemory'
     languages:
@@ -281,6 +297,8 @@ products:
   -
     name: 'Remmina Plugin Builder'
     short_name: remmina-plugin-builder
+    description: 'A package to ease the development and the compilation of Remmina plugins.'
+    description_it: 'Un pacchetto per semplificare lo sviluppo e la compilazione di plugin per Remmina.'
     github: 'https://github.com/muflone/remmina-plugin-builder'
     versions:
       -
@@ -302,6 +320,8 @@ products:
   -
     name: 'Remmina Plugin Exec'
     short_name: remmina-plugin-exec
+    description: 'A Remmina protocol plugin to execute an external process.'
+    description_it: 'Un plugin di protocollo per Remmina per eseguire un processo esterno.'
     github: 'https://github.com/muflone/remmina-plugin-exec'
     versions:
       -
@@ -319,6 +339,8 @@ products:
   -
     name: 'Remmina Plugin Folder'
     short_name: remmina-plugin-folder
+    description: 'A Remmina protocol plugin to open a folder using an external file manager application.'
+    description_it: 'Un plugin di protocollo per Remmina per aprire una cartella con un gestore di files esterno.'
     github: 'https://github.com/muflone/remmina-plugin-folder'
     versions:
       -
@@ -336,6 +358,8 @@ products:
   -
     name: 'Remmina Plugin Open'
     short_name: remmina-plugin-open
+    description: 'A Remmina protocol plugin to open a file or document using its associated application.'
+    description_it: 'Un plugin di protocollo per Remmina per aprire un file o un documento utilizzando l''applicazione associata.'
     github: 'https://github.com/muflone/remmina-plugin-open'
     versions:
       -
@@ -349,6 +373,8 @@ products:
   -
     name: 'Remmina Plugin RDesktop'
     short_name: remmina-plugin-rdesktop
+    description: 'A Remmina protocol plugin to establish RDP connection through RDesktop.'
+    description_it: 'Un plugin di protocollo per Remmina per stabilire connessioni RDP tramite RDesktop.'
     github: 'https://github.com/muflone/remmina-plugin-rdesktop'
     versions:
       -
@@ -370,6 +396,8 @@ products:
   -
     name: 'Remmina Plugin TeamViewer'
     short_name: remmina-plugin-teamviewer
+    description: 'A Remmina protocol plugin to establish connections through TeamViewer.'
+    description_it: 'Un plugin di protocollo per Remmina per stabilire connessioni tramite TeamViewer.'
     github: 'https://github.com/muflone/remmina-plugin-teamviewer'
     versions:
       -
@@ -387,6 +415,8 @@ products:
   -
     name: 'Remmina Plugin UltraVNC'
     short_name: remmina-plugin-ultravnc
+    description: 'A Remmina protocol plugin to establish connections through UltraVNC.'
+    description_it: 'Un plugin di protocollo per Remmina per stabilire connessioni tramite UltraVNC.'
     github: 'https://github.com/muflone/remmina-plugin-ultravnc'
     versions:
       -
@@ -400,6 +430,8 @@ products:
   -
     name: 'Remmina Plugin URL'
     short_name: remmina-plugin-url
+    description: 'A Remmina protocol plugin to open web pages through an external web browser.'
+    description_it: 'Un plugin di protocollo per Remmina per aprire pagine web tramite un browser web esterno.'
     github: 'https://github.com/muflone/remmina-plugin-url'
     versions:
       -
@@ -413,6 +445,8 @@ products:
   -
     name: 'Remmina Plugin WebKit'
     short_name: remmina-plugin-webkit
+    description: 'A Remmina protocol plugin to open web pages through an integrated WebKit web browser.'
+    description_it: 'Un plugin di protocollo per Remmina per aprire pagine web tramite un browser web WebKit integrato.'
     github: 'https://github.com/muflone/remmina-plugin-webkit'
     versions:
       -
