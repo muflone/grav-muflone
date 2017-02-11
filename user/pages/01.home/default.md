@@ -37,3 +37,37 @@ Creating a new page is a simple affair in **Grav**.  Simply follow these simple 
 4. That is it! Reload your browser to see your new page in the menu.
 
 ! NOTE: The page will automatically show up in the Menu after the "Home" menu item. If you wish to change the name that shows up in the Menu, simple add: `menu: My Page` between the dashes in the page content. This is called the YAML front matter, and it is where you configure page-specific options.
+
+## Notices
+
+! This is a notice with depth 1
+
+!! This is a notice with depth 2
+
+!!! This is a notice with depth 3
+
+!!!! This is a notice with depth 4
+
+## Blockquotes
+
+> This is a blockquote with depth 1
+
+&nbsp;
+
+>> This is a blockquote with depth 2
+
+&nbsp;
+
+>>> This is a blockquote with depth 3
+
+&nbsp;
+
+>>>> This is a blockquote with depth 4
+
+&nbsp;
+
+>>>>> This is a blockquote with depth 5
+
+&nbsp;
+
+>>>>>> This is a blockquote with depth 6
