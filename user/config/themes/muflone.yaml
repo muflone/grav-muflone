@@ -250,6 +250,35 @@ products:
         shortver: v010
         packages: [{ type: source, filename: gptrace-0.1.0.tar.gz, size: 136, md5sum: E58057D00E476E23847F875A730CFC98, sources: [muflone, github] }, { type: archlinux, filename: gptrace-0.1.0-1-any.pkg.tar.xz, size: 142, md5sum: FCD4D301362F47B0EECD4A8FED7E3080, sources: [muflone, github] }]
   -
+    name: gTransMemory
+    short_name: gtransmemory
+    github: 'https://github.com/muflone/gtransmemory'
+    translations: 'https://www.transifex.com/projects/p/gtransmemory'
+    languages:
+      - english
+      - italian
+    versions:
+      -
+        version: 0.3.0
+        shortver: '030'
+        packages: [{ type: source, filename: gtransmemory-0.3.0.tar.gz, size: 133, md5sum: a53f05259c1632437addb8c1bf10bd42, sources: [muflone, github] }, { type: archlinux, filename: gtransmemory-0.3.0-1-any.pkg.tar.xz, size: 135, md5sum: 1e6017775c403e896afd3eaa5640a0bc, sources: [muflone, github] }, { type: archlinux_aur, filename: gtransmemory, size: 0, md5sum: -, sources: [aur] }]
+      -
+        version: 0.2.0
+        shortver: '020'
+        packages: [{ type: source, filename: gtransmemory-0.2.0.tar.gz, size: 131, md5sum: 4f064bbfe2a4cd03998e3dd6bc3c66a6, sources: [muflone, github] }, { type: archlinux, filename: gtransmemory-0.2.0-1-any.pkg.tar.xz, size: 134, md5sum: a4d9bf274ae092dcabbe97ec7c8956e7, sources: [muflone, github] }]
+      -
+        version: 0.1.0
+        shortver: '010'
+        packages: [{ type: source, filename: gtransmemory-0.1.0.tar.gz, size: 131, md5sum: 6ed6579732f8e500e00a5a3b2a16b42f, sources: [muflone, github] }, { type: archlinux, filename: gtransmemory-0.1.0-1-any.pkg.tar.xz, size: 133, md5sum: e7948b369497f1ce544cb272e8ce4ecb, sources: [muflone, github] }]
+      -
+        version: 0.0.2
+        shortver: '002'
+        packages: [{ type: source, filename: gtransmemory-0.0.2.tar.gz, size: 128, md5sum: 48cca1e544fba0df5a324ced457a7d72, sources: [muflone, github] }, { type: archlinux, filename: gtransmemory-0.0.2-1-any.pkg.tar.xz, size: 130, md5sum: a712274b6d4d5cb5dc07a8b8419708b4, sources: [muflone, github] }]
+      -
+        version: 0.0.1
+        shortver: v001
+        packages: [{ type: source, filename: gtransmemory-0.0.1.tar.gz, size: 50, md5sum: fa294ca4fded195ca49995f96bc4c42e, sources: [muflone, github] }, { type: archlinux, filename: gtransmemory-0.0.1-1-any.pkg.tar.xz, size: 66, md5sum: 576d4ca245bd009a9a9e27fd0ced57c0, sources: [muflone, github] }]
+  -
     name: 'Remmina Plugin Builder'
     short_name: remmina-plugin-builder
     github: 'https://github.com/muflone/remmina-plugin-builder'
