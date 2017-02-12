@@ -39,6 +39,10 @@ form:
               type: text
               default: favicon-32x32.png
               label: Filename for icon on footer
+            github:
+              type: text
+              default: https://www.github.com/muflone
+              label: GitHub repositories URL
 
         tab_products:
           type: tab

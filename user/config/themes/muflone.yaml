@@ -2,6 +2,7 @@ analytics_id: UA-44039396-3
 analytics_username: muflone.com
 home_product: home
 icon_footer: android-icon-48x48.png
+github: https://github.com/muflone
 products:
   -
     name: Gespeaker
