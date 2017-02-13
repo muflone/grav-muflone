@@ -1,10 +1,13 @@
 title: Muflone
+default_lang: en
 author:
   name: Muflone
   email: muflone@muflone.com
 taxonomies:
   - category
   - tag
+metadata:
+  description: 'My projects, my news and my stuff'
 summary:
   enabled: true
   format: short
