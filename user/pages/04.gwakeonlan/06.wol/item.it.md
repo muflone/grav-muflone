@@ -5,9 +5,9 @@ depth: 1
 ---
 
 # Wake On LAN
-gWakeOnLan utilizza il sistema [Wake On LAN](http://en.wikipedia.org/wiki/Wake_on_LAN) per accendere una macchina sia nella rete locale sia attraverso Internet.
+gWakeOnLan utilizza il sistema [Wake On LAN] per accendere una macchina sia nella rete locale sia attraverso Internet.
 
-Il tipo di Wake On LAN usato gWakeOnLan è chiamato [Magic Packet](http://en.wikipedia.org/wiki/Wake_on_LAN#Magic_packet) ed è ottenuto inviando alla macchina di destinazione uno speciale [pacchetto UDP](http://en.wikipedia.org/wiki/User_Datagram_Protocol) contenente alcuni dati. La macchina a riposo deve essere configurata per ricevere i pacchetti anche nello stato spento in modo che quando lo speciale Magic Packet è ricevuto la macchina si accenderà automaticamente.
+Il tipo di Wake On LAN usato gWakeOnLan è chiamato [Magic Packet] ed è ottenuto inviando alla macchina di destinazione uno speciale [pacchetto UDP][UDP] contenente alcuni dati. La macchina a riposo deve essere configurata per ricevere i pacchetti anche nello stato spento in modo che quando lo speciale Magic Packet è ricevuto la macchina si accenderà automaticamente.
 
 Per permettere il corretto funzionamento di gWakeOnLan tutti i [requisiti](requirements) di sistema devono essere soddisfatti.
 
@@ -21,3 +21,7 @@ Quando il tipo di richiesta inviata gWakeOnLan è **Locale (broadcast)** il Magi
 Quando il tipo di richiesta è **Internet** è richiesto un sistema di destinazione e il Magic Packet sarà inviato a quel sistema che dovrà provvedere ad inviarlo al sistema spento corretto.
 
 Il sistema di destinazione non è inteso come la macchina da accendere ma un punto di rete raggiungibile che sia in grado di ricevere il pacchetto UDP e inoltrarlo alla macchina da accendere utilizzando il Wake On LAN.
+
+[Wake On LAN]: http://en.wikipedia.org/wiki/Wake_on_LAN
+[Magic Packet]: http://en.wikipedia.org/wiki/Wake_on_LAN#Magic_packet
+[UDP]: http://en.wikipedia.org/wiki/User_Datagram_Protocol

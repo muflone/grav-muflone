@@ -11,7 +11,7 @@ Each machine to turn on must:
 * have an integrated (or PCI/PCIE) Ethernet network card.
 * have the network cable plugged all the time.
 * have the power cable plugged all the time.
-* support the Wake On LAN with the [Magic Packet](http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet).
+* support the Wake On LAN with the [Magic Packet].
 * have the Wake On LAN [enabled in the BIOS](../bios).
 * have the Wake On LAN by Magic Packet [enabled in the Operating System](../os).
 * be powered off from the Operating System.
@@ -39,8 +39,11 @@ This is generally done in the router configuration setting up a **Virtual Server
 ## The router must remember the turned off machines
 Many consumer routers forget the MAC addresses on their local network after 2-5 minutes of inactivity, so even if a machine was properly shutdown with all the above requirements the receiving router may not to be able to remember on what MAC address to forward the data.
 
-The success key to accomplish this is called [static ARP cache](http://en.wikipedia.org/wiki/Address_Resolution_Protocol) which statically assigns a MAC address to the IP address to forward.
+The success key to accomplish this is called [static ARP cache][ARP] which statically assigns a MAC address to the IP address to forward.
 
 Plese refer to your router documentation to know how to setup your router.
 
 If this requirement cannot be met because if your router doesn't support a static ARP cache as an alternative you can setup an always-on computer to act as a gateway and configure the ARP cache in its operating system.
+
+[Magic Packet]: http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
+[ARP]: http://en.wikipedia.org/wiki/Address_Resolution_Protocol "Address Resolution Protocol"

@@ -104,7 +104,7 @@ depth: 1
 * Added documentation and artists parameters to ```DialogAbout```.
 
 # Version 0.2 (Jun 14, 2009)
-* Changed UI layout according to [Gnome HIG specifications](https://developer.gnome.org/hig/stable/)
+* Changed UI layout according to [Gnome HIG specifications]
 * Fixed ```DialogAbout.set_icon_from_file``` icon usage, which was wrongly hardcoded.
 * Symlinked copyright file to ```/usr/share/doc/gespeaker/copyright```
 
@@ -114,3 +114,5 @@ depth: 1
 * Initial release.
 
 ![Main window for Gespeaker 0.1](/resources/gespeaker/archive/v0.1/english/main.jpg?classes=center)
+
+[Gnome HIG specifications]: https://developer.gnome.org/hig/stable/ "GNOME Human Interface Guidelines"
