@@ -13,6 +13,7 @@ class ShortcodeMuflonePlugin extends Plugin
         return [
             'onPluginsInitialized' => ['onPluginsInitialized', 0],
             'onShortcodeHandlers' => ['onShortcodeHandlers', 0],
+            'onTwigSiteVariables' => ['onTwigSiteVariables', 0],
             'onTwigTemplatePaths' => ['onTwigTemplatePaths', 0],
         ];
     }
@@ -44,4 +45,13 @@ class ShortcodeMuflonePlugin extends Plugin
         // Get a variable from the plugin configuration
         $this->grav['shortcode']->registerAllShortcodes(__DIR__.'/shortcodes');
     }
+
+    /**
+     * Add css
+     */
+    public function onTwigSiteVariables()
+    {
+        $this->grav['assets']->add('plugin://shortcode-muflone/assets/css/shortcode-muflone.css');
+    }
+
 }
