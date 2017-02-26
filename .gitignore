@@ -1,7 +1,7 @@
-cache/
-logs/
-backup/
-images/
+/cache/
+/logs/
+/backup/
+/images/
 fix-permissions.sh
 user/config/security.yaml
 user/accounts/
