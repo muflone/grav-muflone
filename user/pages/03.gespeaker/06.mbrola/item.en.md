@@ -5,7 +5,7 @@ depth: 1
 ---
 
 # Introduction
-Gespeaker supports two different speech engines: **espeak**, the default native and [**MBROLA**](http://tcts.fpms.ac.be/synthesis/), an extra engine that offers more realistic voices.
+Gespeaker supports two different speech engines: **espeak**, the default native and [MBROLA](http://tcts.fpms.ac.be/synthesis/), an extra engine that offers more realistic voices.
 
 It's possible to read the page [Demo voices](../demo) to listen some examples of both speech engines.
 

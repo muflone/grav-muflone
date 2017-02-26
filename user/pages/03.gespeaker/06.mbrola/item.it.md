@@ -5,7 +5,7 @@ depth: 1
 ---
 
 # Introduzione
-Gespeaker supporta due differenti motori di sintetizzazione vocale: **espeak** è quello predefinito e nativo e [**MBROLA**](http://tcts.fpms.ac.be/synthesis/), un motore aggiuntivo che offre delle voci più realistiche.
+Gespeaker supporta due differenti motori di sintetizzazione vocale: **espeak** è quello predefinito e nativo e [MBROLA](http://tcts.fpms.ac.be/synthesis/), un motore aggiuntivo che offre delle voci più realistiche.
 
 È possibile consultare la pagina [voci dimostrative](../demo) per ascoltare alcuni esempi di entrambi i motori vocali.
 

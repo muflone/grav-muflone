@@ -6,7 +6,7 @@ depth: 1
 
 # Description
 
-**gWakeOnLAN** is a free GTK+ application to turn the machines on through the [**Wake On LAN**](../wol) system, regardless of their installed operating system.
+**gWakeOnLAN** is a free GTK+ application to turn the machines on through the [Wake On LAN](../wol) system, regardless of their installed operating system.
 
 ![](/resources/gwakeonlan/archive/latest/english/main.png?classes=center)
 
