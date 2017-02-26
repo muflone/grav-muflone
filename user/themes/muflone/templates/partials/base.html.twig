@@ -39,8 +39,10 @@
 {% block header %}
     <header>
       <div class="inner">
-        <h1>{{ page.title }}</h1>
-        <h2>&nbsp;</h2>
+        <a href="{{ url(active_product.short_name) }}"><img src="{{ url('resources/' ~ active_product.short_name ~ '/icons/ms-icon-144x144.png') }}" style="padding-right: 20px;" align="left"></a>
+        <h1>{{ active_product.name }}</h1>
+        <h2>{{ page.title }}</h2>
+        {{ 'THEME_MUFLONE.GITHUB.VIEW_PROJECT' | t(active_product.github) }}
       </div>
     </header>
 {% endblock %}

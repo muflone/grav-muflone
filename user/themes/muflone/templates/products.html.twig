@@ -2,16 +2,6 @@
 {% do assets.addCss('theme://css/layout-item.css', 90) %}
 {% do assets.addCss('theme://css/products.css', 100) %}
 
-{% block header %}
-    <header>
-      <div class="inner">
-        <h1>Muflone</h1>
-        <h2>{{ page.title }}</h2>
-        {{ 'THEME_MUFLONE.GITHUB.MY_PROJECTS' | t(theme_config.github) }}
-      </div>
-    </header>
-{% endblock %}
-
 {% block body %}
     <div id="content-wrapper">
       <div class="inner clearfix">

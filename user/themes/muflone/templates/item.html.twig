@@ -2,10 +2,6 @@
 {% do assets.addCss('theme://css/layout-item.css', 90) %}
 {% do assets.addCss('theme://css/layout-sidebar.css', 90) %}
 
-{% block header %}
-  {% include 'partials/product_header.html.twig' with { 'subtitle': page.title } %}
-{% endblock %}
-
 {% block content %}
     {{ page.content }}
 {% endblock %}
