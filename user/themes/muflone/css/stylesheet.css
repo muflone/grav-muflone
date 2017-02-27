@@ -279,6 +279,13 @@ ul li {
   background: #2e7bcf url('../images/skin-header.jpg') 0 0 repeat-x;
 }
 
+.title {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-size: 46px;
+  letter-spacing: -1px;
+  color: #474747;
+}
+
 /* #Media Queries
 ================================================== */
 
