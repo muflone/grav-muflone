@@ -1,6 +1,7 @@
 #main-content hr {
   clear: both;
-  border: 0;
+  border: 1;
+  color: #ffffff;
   background: url(../images/hr.png) repeat-x bottom;
 }
 
@@ -23,7 +24,7 @@
   list-style: none;
   padding: 10px;
   float: left;
-  width: 500px;
+  width: 400px;
 }
 
 #main-content ul li img {
@@ -53,4 +54,22 @@
   margin: 0 10px;
   width: 32px;
   height: 32px;
+}
+
+#main-content hr+p {
+  margin-left: 10px;
+}
+
+body {
+  background: #dfe2e4 url(../images/contacts-bg.jpg) repeat top left; 
+}
+
+#content-wrapper {
+  padding-top: 0px;
+}
+
+#main-content {
+  background: #eeeeee;
+  padding-left: 10px;
+  padding-right: 10px;
 }

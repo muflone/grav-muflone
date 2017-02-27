@@ -5,6 +5,12 @@ icon_footer: android-icon-48x48.png
 github: https://github.com/muflone
 products:
   -
+    name: 'Muflone'
+    short_name: contacts
+    description: 'Contacts'
+    description_it: 'Contatti'
+    github: 'https://github.com/muflone'
+  -
     name: Gespeaker
     short_name: gespeaker
     description: 'Listen the written text in various languages with settings for voices, speech, volume and speed.'
