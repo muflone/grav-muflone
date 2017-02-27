@@ -4,3 +4,6 @@
 {% if page.title %}
     <meta name="description" content="{{ page.title }}">
 {% endif %}
+{% if count(page.header.taxonomy.tag) > 0 %}
+    <meta name="keywords" content="{{ implode(", ", page.header.taxonomy.tag) }}">
+{% endif %}
