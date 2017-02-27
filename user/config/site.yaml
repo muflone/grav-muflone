@@ -7,7 +7,7 @@ taxonomies:
   - category
   - tag
 metadata:
-  description: 'My projects, my news and my stuff'
+  description: 
 summary:
   enabled: true
   format: short
