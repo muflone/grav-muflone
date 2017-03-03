@@ -29,9 +29,9 @@ Angolo sviluppatori
 * [![](link-github.png) **GitHub** https://github.com/muflone/](http://url.muflone.com/github)
 * [![](link-archlinux.png) **Arch Linux AUR packages** https://aur.archlinux.org/packages/?SeB=m&K=muflone](http://url.muflone.com/aur)
 * [![](link-archlinux.png) **Arch Linux Wiki** https://wiki.archlinux.org/index.php/User:Muflone](http://url.muflone.com/archwiki)
+* [![](link-ohloh.png) **Ohloh** fibiafbi](http://url.muflone.com/ohloh)
 * [![](link-debian.png) **Debian packages** https://qa.debian.org/developer.php](http://url.muflone.com/debian)
 * [![](link-debian.png) **Python Application Packaging Team** https://alioth.debian.org/projects/python-apps/](http://url.muflone.com/papt)
-* [![](link-ohloh.png) **Ohloh** fibiafbi](http://url.muflone.com/ohloh)
 * [![](link-launchpad.png) **Launchpad** https://launchpad.net/~il-muflone](http://url.muflone.com/launchpad)
 * [![](link-sourceforge.png) **Sourceforge** http://sourceforge.net/users/muflone/](http://url.muflone.com/sourceforge)
 
@@ -41,7 +41,8 @@ I miei blog
 
 ----
 
-* [![](link-wordpress.png) **Un caprone che fa bau** http://url.muflone.com/blog](http://url.muflone.com/blog)
-* [![](link-wordpress.png) **Ubuntu Trucchi** http://url.muflone.com/ubuntutrucchi](http://url.muflone.com/ubuntutrucchi)
-* [![](link-wordpress.png) **Appunti sparsi su PyGTK** http://url.muflone.com/pygtk](http://url.muflone.com/pygtk)
-* [![](link-wordpress.png) **The GNOME Shell** http://url.muflone.com/gnomeshell](http://url.muflone.com/gnomeshell)
+* [![](link-wordpress.png) **Un caprone che fa bau** https://muflone.wordpress.com/](http://url.muflone.com/blog)
+* [![](link-wordpress.png) **Ubuntu Trucchi** https://ubuntrucchi.wordpress.com/](http://url.muflone.com/ubuntutrucchi)
+* [![](link-wordpress.png) **Appunti sparsi su PyGTK** https://pygtk.wordpress.com/](http://url.muflone.com/pygtk)
+* [![](link-wordpress.png) **The GNOME Shell** https://pygtk.wordpress.com/](http://url.muflone.com/gnomeshell)
+
