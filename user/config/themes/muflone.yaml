@@ -11,6 +11,12 @@ products:
     description_it: 'Contatti'
     github: 'https://github.com/muflone'
   -
+    name: 'News'
+    short_name: news
+    description: 'News and interesting links.'
+    description_it: 'Notizie e link interessanti.'
+    github: 'https://github.com/muflone/grav-muflone'
+  -
     name: Gespeaker
     short_name: gespeaker
     description: 'Listen the written text in various languages with settings for voices, speech, volume and speed.'
