@@ -17,6 +17,12 @@ products:
     description_it: 'Notizie e link interessanti.'
     github: 'https://github.com/muflone/grav-muflone'
   -
+    name: 'Articles'
+    short_name: articles
+    description: 'Articles and guides.'
+    description_it: 'Articoli e guide.'
+    github: 'https://github.com/muflone/grav-muflone'
+  -
     name: Gespeaker
     short_name: gespeaker
     description: 'Listen the written text in various languages with settings for voices, speech, volume and speed.'

@@ -1,0 +1,63 @@
+---
+title: 'Connessione Wi-Fi'
+date: '09-06-2015 00:00'
+taxonomy:
+    tag:
+        - arch
+        - linux
+        - lenovo
+        - ideapad
+        - g50-70
+        - rete
+        - wifi
+        - wlan
+        - rfkill
+summary: 'Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 2 -  Configurazione della connessione Wi-Fi)'
+product: articles
+depth: 2
+---
+
+![](arch-linux-prompt.png)
+
+Prima di procedere all'installazione del sistema operativo è necessario configurare la rete affinché possano essere scaricati i pacchetti di installazione, non presenti nell'immagine di installazione del sistema operativo.
+
+----
+
+# Attivazione del controller Wi-Fi
+
+Inizialmente il controller Wi-Fi risulterà essere disattivato come confermato dal comando **rfkill list wlan**
+
+    root@archiso ~ # rfkill list wlan
+    1: phy0: Wireless LAN
+      Soft blocked: yes
+      Hard blocked: no
+    2: ideapad_wlan: Wireless LAN
+      Soft blocked: yes
+      Hard blocked: no
+
+Prima di poter utilizzare l'interfaccia di rete sarà necessario sbloccarla col comando **rfkill unblock wlan**
+
+    root@archiso ~ # rfkill unblock wlan
+
+----
+
+# Configurazione della connessione Wi-Fi
+
+Sarà quindi possibile eseguire la configurazione della rete Wi-Fi attraverso il comando **wifi-menu**
+
+    root@archiso ~ # wifi-menu
+    Scanning for networks... done
+
+![](wifi-menu-1.png)
+
+Utilizzando le freccette scegliere la connessione Wi-Fi desiderata e confermare premendo invio.
+
+![](wifi-menu-2.png)
+
+Indicare il nome col quale salvare il profilo di rete e confermare con invio.
+
+![](wifi-menu-3.png)
+
+Quando richiesto, specificare la password (WEP o WPA) per la connessione scelta e confermare con invio.
+
+La connessione sarà automaticamente avviata e si riceverà l'indirizzo IP di rete attraverso DHCP.
