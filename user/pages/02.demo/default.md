@@ -1,5 +1,6 @@
 ---
 title: Demo
+depth: 0
 ---
 
 # Grav is Running!
