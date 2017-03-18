@@ -14,6 +14,17 @@ form:
           fields:
             overrides:
               fields:
+                header.product:
+                  type: text
+                  label: Product short name
+                  validate:
+                    required: true
+                header.depth:
+                  type: int
+                  label: Page depth
+                  default: 1
+                  validate:
+                    required: true
                 header.summary:
                   type: text
                   label: Page summary
