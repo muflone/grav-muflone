@@ -14,9 +14,9 @@ taxonomy:
         - loader
         - refind
         - prebootloader
-summary: 'Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 5 - Installazione del gestore di avvio)'
 product: articles
 depth: 2
+summary: 'Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 5 - Installazione del gestore di avvio)'
 ---
 
 ![](refind.png?classes=center)
@@ -93,7 +93,7 @@ Il gestore di avvio rEFInd va innanzitutto installato nella partizione boot. Il 
 
 Poiché nel nostro sistema è attivo Secure Boot è necessario avviare un sistema firmato, come si è fatto durante la fase di [preparazione](../preparazione-del-sistema).
 
-La Linux Foundation ha realizzato un file di avvio per UEFI, detto anche [PreLoader][] [muflone-offline-copy]Linux Foundation UEFI Secure Boot System for Open Source.pdf[/muflone-offline-copy], firmato e quindi riconosciuto correttamente da ogni sistema con UEFI e Secure Boot attivato. 
+La Linux Foundation ha realizzato un file di avvio per UEFI, detto anche [PreLoader][] [shortcode-offline-copy]Linux Foundation UEFI Secure Boot System for Open Source.pdf[/shortcode-offline-copy], firmato e quindi riconosciuto correttamente da ogni sistema con UEFI e Secure Boot attivato. 
 
 PreLoader.efi a sua volta richiamerà un altro file EFI di nome loader.efi e lo avvierà. Con questa soluzione viene concessa libertà all'utente di avviare qualsiasi sistema operativo anche in assenza di firma per Secure Boot.
 

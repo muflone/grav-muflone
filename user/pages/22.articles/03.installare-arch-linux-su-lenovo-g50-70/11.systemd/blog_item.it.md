@@ -12,9 +12,9 @@ taxonomy:
         - servizi
         - avvio
         - esecuzione
-summary: 'Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 11 - Il sistema di avvio systemd)'
 product: articles
 depth: 2
+summary: 'Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 11 - Il sistema di avvio systemd)'
 ---
 
 A differenza di tante altre distribuzioni GNU/Linux, Arch Linux ha abbandonato il consueto sistema di avvio storico (chiamato SysVinit) e ha recentemente adottato un nuovo sistema di avvio chiamato [systemd].
@@ -30,7 +30,7 @@ Per una spiegazione più approfondita consultare le seguenti pagine:
 * <https://wiki.freedesktop.org/www/Software/systemd/>
 * <http://0pointer.net/blog/archives.html>
 * <https://wiki.archlinux.org/index.php/Systemd>
-* <https://n0where.net/understanding-systemd/> [muflone-offline-copy]understanding-systemd.pdf[/muflone-offline-copy]
+* <https://n0where.net/understanding-systemd/> [shortcode-offline-copy]understanding-systemd.pdf[/shortcode-offline-copy]
 
 ----
 

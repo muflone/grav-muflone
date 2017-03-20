@@ -79,8 +79,6 @@ en:
           Please submit your translations to <a href="%s" target="_blank">Transifex</a>
           or file an issue in <a href="%s/issues" target="_blank">GitHub bugtracker</a>
           or <a href="%s/pulls" target="_blank">pull a request on GitHub</a>.
-    OFFLINE_COPY:
-      TEXT: Offline copy
 it:
   PLUGIN_SHORTCODE_MUFLONE:
     INSTALL:
@@ -162,5 +160,3 @@ it:
           Prego compila le tue traduzioni su <a href="%s" target="_blank">Transifex</a>
           oppure apri una richiesta sul sistema di <a href="%s/issues" target="_blank">segnalazioni di GitHub</a>
           oppure apri una <a href="%s/pulls" target="_blank">richiesta di pull su GitHub</a>.
-    OFFLINE_COPY:
-      TEXT: Copia offline

@@ -1,3 +1,6 @@
 [submodule "user/plugins/blockquotes"]
 	path = user/plugins/blockquotes
 	url = https://github.com/muflone/grav-plugin-blockquotes.git
+[submodule "user/plugins/shortcode-offline-copy"]
+	path = user/plugins/shortcode-offline-copy
+	url = https://github.com/muflone/grav-plugin-shortcode-offline-copy.git

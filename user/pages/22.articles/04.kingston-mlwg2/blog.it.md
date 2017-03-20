@@ -27,7 +27,7 @@ Qualche tempo fa ho acquistato un [Kingston MobileLite Wireless G2][Datasheet] (
 Links utili:
 
 * [Supporto][Support]
-* [Scheda tecnica][Datasheet] [muflone-offline-copy]mlwg2_it.pdf[/muflone-offline-copy]
+* [Scheda tecnica][Datasheet] [shortcode-offline-copy]mlwg2_it.pdf[/shortcode-offline-copy]
 * [Firmware][Firmware]
 
 Il suo utilizzo è molto semplice, vi racconto com'è andata e le possibilità aggiuntive che ho trovato.

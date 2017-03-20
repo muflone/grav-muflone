@@ -16,9 +16,9 @@ taxonomy:
         - formattazione
         - parted
         - gdisk
-summary: 'Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 3 - Partizionamento del disco)'
 product: articles
 depth: 2
+summary: 'Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 3 - Partizionamento del disco)'
 ---
 
 Il processo di installazione di Arch Linux è differente dal processo di installazione di altre distribuzioni GNU/Linux come Debian, Ubuntu, OpenSUSE o Fedora. Si tratta infatti di un'installazione manuale del sistema operativo minimale che richiede ogni singola messa a punto prima di fornire un sistema completo e usabile.
@@ -198,7 +198,7 @@ Verrà creata una partizione swap di **6 GB**, la stessa quantità di memoria de
 
 Al termine delle operazioni verificare il partizionamento ottenuto. Per ogni partizione creata eseguire il comando **align-check optimal** per verificare che la partizione sia allineata correttamente.
 
-Un errato allineamento delle partizioni può causare un forte degrado delle prestazioni, soprattutto in fase di scrittura dei dati. Per ulteriori informazioni: [Linux on 4KB-sector disks][] [muflone-offline-copy]ibm-4k-sectors-practices.pdf[/muflone-offline-copy] e [Transition to Advanced Format 4K Sector Hard Drives][Seagate 4K] [muflone-offline-copy]seagate-4k-sectors-transition-it.pdf[/muflone-offline-copy].
+Un errato allineamento delle partizioni può causare un forte degrado delle prestazioni, soprattutto in fase di scrittura dei dati. Per ulteriori informazioni: [Linux on 4KB-sector disks][] [shortcode-offline-copy]ibm-4k-sectors-practices.pdf[/shortcode-offline-copy] e [Transition to Advanced Format 4K Sector Hard Drives][Seagate 4K] [shortcode-offline-copy]seagate-4k-sectors-transition-it.pdf[/shortcode-offline-copy].
 
     (parted) print                                                            
     Model: ATA WDC WD10JPCX-24U (scsi)
@@ -343,7 +343,7 @@ Utilizzare il comando **blkid** per conoscere l'elenco delle partizioni disponib
 
 L'ESP predefinita in questo computer è la partizione /dev/sda2, mentre la partizione /dev/sda3 contiene i file di avvio del sistema di ripristino di Lenovo (LRS_ESP = Lenovo Recovery System ESP).
 
-Per ulteriori dettagli sul significato delle varie partizioni consultare la pagina [Lenovo Yoga Pro 2 Partition Cleanup][] [muflone-offline-copy]lenovo-yoga-2-pro-partitions.pdf[/muflone-offline-copy].
+Per ulteriori dettagli sul significato delle varie partizioni consultare la pagina [Lenovo Yoga Pro 2 Partition Cleanup][] [shortcode-offline-copy]lenovo-yoga-2-pro-partitions.pdf[/shortcode-offline-copy].
 
 E' infine possibile montare le nuove partizioni root, boot e home.
 
