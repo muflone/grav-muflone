@@ -1,0 +1,3 @@
+[submodule "user/plugins/blockquotes"]
+	path = user/plugins/blockquotes
+	url = https://github.com/muflone/grav-plugin-blockquotes.git
