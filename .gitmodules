@@ -7,3 +7,6 @@
 [submodule "user/plugins/shortcode-muflone"]
 	path = user/plugins/shortcode-muflone
 	url = https://github.com/muflone/grav-plugin-shortcode-muflone.git
+[submodule "user/themes/muflone"]
+	path = user/themes/muflone
+	url = https://github.com/muflone/grav-theme-muflone.git
