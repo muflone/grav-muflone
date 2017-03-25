@@ -4,3 +4,6 @@
 [submodule "user/plugins/shortcode-offline-copy"]
 	path = user/plugins/shortcode-offline-copy
 	url = https://github.com/muflone/grav-plugin-shortcode-offline-copy.git
+[submodule "user/plugins/shortcode-muflone"]
+	path = user/plugins/shortcode-muflone
+	url = https://github.com/muflone/grav-plugin-shortcode-muflone.git
