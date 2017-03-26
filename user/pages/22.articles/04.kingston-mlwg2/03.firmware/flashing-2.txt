@@ -1,0 +1,410 @@
+U-Boot 1.1.3 (Dec 30 2013 - 10:32:24)
+
+Board: Ralink APSoC DRAM:  64 MB
+relocate_code Pointer at: 83fb4000
+enable ephy clock...done. rf reg 29 = 5
+SSC disabled.
+******************************
+Software System Reset Occurred
+******************************
+spi_wait_nsec: 29 
+spi device id: c2 20 18 c2 20 (2018c220)
+find flash: MX25L12805D
+raspi_read: from:30000 len:1000 
+raspi_read: from:30000 len:1000 
+============================================ 
+Ralink UBoot Version: 4.1.1.0
+-------------------------------------------- 
+ASIC 7620_MP (Port5<->None)
+DRAM component: 512 Mbits DDR, width 16
+DRAM bus: 16 bit
+Total memory: 64 MBytes
+Flash component: SPI Flash
+Date:Dec 30 2013  Time:10:32:24
+============================================ 
+icache: sets:512, ways:4, linesz:32 ,total:65536
+dcache: sets:256, ways:4, linesz:32 ,total:32768 
+
+ ##### The CPU freq = 580 MHZ #### 
+ estimate memory size =64 Mbytes
+
+Please choose the operation: 
+   1: Load system code to SDRAM via TFTP. 
+   2: Load system code then write to Flash via TFTP. 
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+   7: Load Boot Loader code then write to Flash via Serial. 
+   9: Load Boot Loader code then write to Flash via TFTP. 
+ 0 
+raspi_read: from:30000 len:10000 
+Erasing SPI Flash...
+raspi_erase: offs:30000 len:10000
+.
+Writing to SPI Flash...
+raspi_write: to:30000 len:10000 
+.
+done
+   
+3: System Boot system code via Flash.
+3: System Boot on bootstate=3.
+## Booting image at bc800000 ...
+raspi_read: from:800000 len:40 
+   Image Name:   Linux Kernel Image
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    6504057 Bytes =  6.2 MB
+   Load Address: 80000000
+   Entry Point:  8000c310
+raspi_read: from:800040 len:633e79 
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... OK
+No initrd
+## Transferring control to Linux (at address 8000c310) ...
+## Giving linux memsize in MB, 64
+
+Starting kernel ...
+
+
+LINUX started...
+
+ THIS IS ASIC
+Linux version 2.6.36+ (root@CVS2) (gcc version 3.4.2) #2 Thu Sep 18 10:05:08 CST 2014
+
+ The CPU feqenuce set to 580 MHz
+ PCIE: bypass PCIe DLL.
+ PCIE: Elastic buffer control: Addr:0x68 -> 0xB4
+ disable all power about PCIe
+ PCIE: PLL power down for MT7620N
+CPU revision is: 00019650 (MIPS 24Kc)
+Determined physical RAM map:
+ memory: 04000000 @ 00000000 (usable)
+Initrd not found or empty - disabling initrd
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x00004000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00004000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: console=ttyS1,57600n8 root=/dev/ram0 console=ttyS0
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+Writing ErrCtl register=000777d8
+Readback ErrCtl register=000777d8
+Memory: 54272k/65536k available (4927k kernel code, 11264k reserved, 890k data, 4620k init, 0k highmem)
+NR_IRQS:128
+console [ttyS1] enabled
+Calibrating delay loop... 386.04 BogoMIPS (lpj=772096)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+NET: Registered protocol family 16
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Switching to clocksource MIPS
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+TCP: Hash tables configured (established 2048 bind 2048)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RT3xxx EHCI/OHCI init.
+JFFS2 version 2.2 (NAND) (SUMMARY) (ZLIB) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+fuse init (API version 7.15)
+msgmni has been set to 106
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+io scheduler noop registered (default)
+Ralink gpio driver initialized
+led=43, on=5, off=5, blinks,=4000, reset=1, time=4000
+led=40, on=4000, off=1, blinks,=1, reset=1, time=4000
+Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+serial8250: ttyS0 at MMIO 0x10000500 (irq = 37) is a 16550A
+serial8250: ttyS1 at MMIO 0x10000c00 (irq = 12) is a 16550A
+brd: module loaded
+flash0: started
+deice id : c2 20 18 c2 20 (2018c220)
+MX25L12805D(c2 2018c220) (16384 Kbytes)
+mtd .name = raspi, .size = 0x01000000 (0M) .erasesize = 0x00000010 (0K) .numeraseregions = 65536
+Creating 6 MTD partitions on "raspi":
+0x000000000000-0x000000030000 : "Bootloader"
+0x000000030000-0x000000040000 : "Config"
+0x000000040000-0x000000050000 : "Factory"
+0x000000050000-0x000000800000 : "KernelA"
+0x000000800000-0x000000fb0000 : "KernelB"
+0x000000fb0000-0x000001000000 : "User_CFG"
+rdm_major = 253
+SMACCR1 -- : 0x0000000c
+SMACCR0 -- : 0x43762077
+Ralink APSoC Ethernet Driver Initilization. v3.0  256 rx/tx descriptors allocated, mtu = 1500!
+SMACCR1 -- : 0x0000000c
+SMACCR0 -- : 0x43762077
+PROC INIT OK!
+PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+NET: Registered protocol family 24
+PPTP driver version 0.8.5
+usbcore: registered new interface driver cdc_ether
+usbcore: registered new interface driver cdc_subset
+
+
+=== pAd = c01a5000, size = 807960 ===
+
+<-- RTMPAllocTxRxRingMemory, Status=0
+<-- RTMPAllocAdapterBlock, Status=0
+AP Driver version-2.7.1.2
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+rt3xxx-ehci rt3xxx-ehci: Ralink EHCI Host Controller
+rt3xxx-ehci rt3xxx-ehci: new USB bus registered, assigned bus number 1
+rt3xxx-ehci rt3xxx-ehci: irq 18, io mem 0x101c0000
+rt3xxx-ehci rt3xxx-ehci: USB 0.0 started, EHCI 1.00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+rt3xxx-ohci rt3xxx-ohci: RT3xxx OHCI Controller
+rt3xxx-ohci rt3xxx-ohci: new USB bus registered, assigned bus number 2
+rt3xxx-ohci rt3xxx-ohci: irq 18, io mem 0x101c1000
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver usbserial
+usbserial: USB Serial Driver core
+USB Serial support registered for GSM modem (1-port)
+usbcore: registered new interface driver option
+option: v0.7.2:USB Driver for GSM modems
+MTK MSDC device init.
+mtk-sd: MediaTek MT6575 MSDC Driver
+nf_conntrack version 0.5.0 (848 buckets, 3392 max)
+IPVS: Registered protocols ()
+IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+IPVS: ipvs loaded.
+GRE over IPv4 demultiplexor driver
+gre: can't add protocol
+ip_tables: (C) 2000-2006 Netfilter Core Team, Type=Restricted Cone
+TCP cubic registered
+NET: Registered protocol family 10
+NET: Registered protocol family 17
+L2TP core driver, V2.0
+PPPoL2TP kernel driver, V2.0
+802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+msdc0 -> ops_get_cd return<0> <- msdc_ops_get_cd() : L<2273> PID<kworker/u:1><0x17>
+Freeing unused kernel memory: 4620k freed
+init started: BusyBox v1.12.1 (201Algorithmics/MIPS FPU Emulator v1.5
+4-09-18 09:46:08 CST)
+starting pid 32, tty '': '/etc_ro/rcS'
+ufsd: module license 'Commercial product' taints kernel.
+Disabling lock debugging due to kernel taint
+ufsd:: trace mask set to 0000000f
+ufsd: driver (lke_8.9.0 lke_8.9.0_r225793_b93, LBD=ON, delalloc, ioctl, ugm, sd(1), wb, tr) loaded at c0355000
+NTFS support included
+exFAT/TexFAT support included
+optimized: speed
+Build_for__Kingston_wifi_card_reader_k2.6.36_2013-03-22_lke_8.9.0_r225793_b93
+
+ufsd: exfat can't store dates before Jan 1, 1980. Please update current date
+usb 1-1: new high speed USB device using rt3xxx-ehci and address 2
+devpts: called with bogus options
+hub 1-1:1.0: USB hub found
+hub 1-1:1.0: 4 ports detected
+usb 1-1.2: new high speed USB device using rt3xxx-ehci and address 3
+scsi0 : usb-storage 1-1.2:1.0
+scsi 0:0:0:0: Direct-Access     USB      Disk             2.b0 PQ: 0 ANSI: 2
+sd 0:0:0:0: [sda] 131072000 512-byte logical blocks: (67.1 GB/62.5 GiB)
+sd 0:0:0:0: Attached scsi generic sg0 type 0
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Assuming drive cache: write through
+sd 0:0:0:0: [sda] Assuming drive cache: write through
+ sda: sda1
+sd 0:0:0:0: [sda] Assuming drive cache: write through
+sd 0:0:0:0: [sda] Attached SCSI removable disk
+***** sda no need *****
+***** sda1 *****
+semget err:: No such file or directory
+scsinum=  3 deviceport0= deviceport1=  3 deviceport2=
+***** USB *****
+FAT: utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Welcome to
+    _______  _______  ___     __  ____   _  _   ___
+    |  ___  \|   __  ||   |   |__||    \ | || | /  /
+    | |___| ||  |__| ||   |__  __ |     \| || |/  /
+    |   _   /|   _   ||      ||  || |\     ||     \
+    |__| \__\|__| |__||______||__||_| \____||_|\___\
+
+   	             =System Architecture Department=
+
+[check_jffs]80 : JFFS_OK
+led=11, on=1, off=4000, blinks,=1, reset=1, time=4000
+semget err:: No such led=7, on=1, off=4000, blinks,=1, reset=1, time=4000
+file or directory
+Set: phy[0].reg[0] = 3100
+Set: phy[1].reg[0] = 3100
+Set: phy[2].reg[0] = 3100
+Set: phy[3].reg[0] = 3100
+Set: phy[4].reg[0] = 3100
+nvram_init: INFO=>nvram MAC initialized successfully!
+==>shm_init()!!
+check_shm_hash: Check shm hash value
+nvram_init: INFO=>nvram conf initialized successfully!
+nvram_init: INFO=> RAM CONF successful created!
+nvram_init: INFO=> RC.CONF successful created!
+/etc_ro/rcS: /tmp/rc.conf: line 1132: 3g_enabled=1: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1133: 3g_user=voda: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1134: 3g_pass=voda: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1135: 3g_apn=web.vodafone.it: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1136: 3g_pin=: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1137: 3g_dial=*99#: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1164: 3g_wan=0: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1165: 3g_wan_eth0=0: not found
+/etc_ro/rcS: /tmp/rc.conf: line 1166: 3g_wan_usb0=0: not found
+---------------- Get WLAN MAC 00:26:b7:08:fe:f0---------------
+switch reg write offset=94, value=1000
+switch reg write offset=2004, value=ff0003
+switch reg write offset=2104, value=ff0003
+switch reg write offset=2204, value=ff0003
+switch reg write offset=2304, value=ff0003
+switch reg write offset=2404, value=ff0003
+switch reg write offset=2504, value=ff0003
+switch reg write offset=2010, value=810000c0
+switch reg write offset=2110, value=810000c0
+switch reg write offset=2210, value=810000c0
+switch reg write offset=2310, value=810000c0
+switch reg write offset=2410, value=810000c0
+switch reg write offset=2510, value=810000c0
+switch reg write offset=2610, value=81000000
+switch reg write offset=2710, value=81000000
+switch reg write offset=2604, value=20ff0003
+switch reg write offset=2704, value=20ff0003
+Special Tag Disabled
+switch reg write offset=2610, value=81000000
+switch reg write offset=2014, value=10001
+switch reg write offset=2114, value=10001
+switch reg write offset=2214, value=10001
+switch reg write offset=2314, value=10001
+switch reg write offset=2414, value=10002
+switch reg write offset=2514, value=10001
+Raeth v3.0 (Tasklet,SkbRecycle)
+REG_ESW_WT_MAC_ATC is 0x7fff0002
+phy_tx_ring = 0x02050000, tx_ring = 0xa2050000
+
+phy_rx_ring0 = 0x02051000, rx_ring0 = 0xa2051000
+SMACCR1 -- : 0x00000026
+SMACCR0 -- : 0xb708fef0
+CDMA_CSG_CFG = 81000000
+GDMA1_FWD_CFG = 20710000
+
+done.
+switch reg write offset=2114, value=10002
+switch reg write offset=2414, value=10001
+ifconfig: SIOCSIFHWADDR: No such device
+ifconfig: ioctl 0x8913 failed: No such device
+device vlan0001 entered promiscuous mode
+device eth2 entered promiscuous mode
+input_access=[3]
+echo 3 > /proc/lan_wlan_access_controller
+sh: can't create /proc/lan_wlan_access_controller: nonexistent directory
+br0: port 1(vlan0001) entering learning state
+br0: port 1(vlan0001) entering learning state
+Fri Jan  1 00:00:00 GMT 2010
+/etc_ro/rcS: line 138: wd_keepalive: not found
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+Using intrapositioned negation (`--option ! this`) is deprecated in favor of extrapositioned (`! --option this`).
+Using intrapositioned negation (`--option ! this`) is deprecated in favor of extrapositioned (`! --option this`).
+iptables v1.4.10: 
+The "nat" table is not intended for filtering, the use of DROP is therefore inhibited.
+
+
+Try `iptables -h' or 'iptables --help' for more information.
+ifconfig: ioctl 0x8913 failed: No such device
+interface ra2 does not exist!
+ifconfig: ioctl 0x8913 failed: No such device
+interface ra2 does not exist!
+[Enter Test] in wlan_led_ctrl.c main()
+.killall: ap_client_run: no process killed
+insmod: ipv6passthru.ko: module not found
+/usr/shell/dnsmasq.sh stop ok
+dnsmasq: read /etc/hosts - 2 addresses
+dnsmasq: read /etc/hosts - 2 addresses
+dnsmasq: [truncated] m
+/usr/shell/dnsmasq.sh start ok
+sh: /usr/sbin/miniupnpd: not found
+/usr/shell/udhcpd.sh config ok
+/usr/shell/udhcpd.sh start ok
+
+***** g_wl_interface = ra0 ******
+
+MAX_NUM_SESSIONS : 5; NUM_SEES: 64 
+***** sda no need *****
+aa
+new GPIO mode
+killall: wifidetect: no process killed
+
+
+===wifidetect start===
+
+killall: udhcpc.sh: no process killed
+/etc_ro/rcS: line 248: /usr/local/apache2/bin/htpasswd: not found
+Get_bootstate_to_nvram : 
+Reading 4096 bytes......success
+Uboot CRC is 4ACC4D4E, Uboot env CRC is 4ACC4D4E
+killall: udhcpc: no process killed
+Reading 65536 bytes......success
+Get_bootstate_to_nvram : bootstate is [3]
+bootstate is different set bootstate to 3
+killall: DMS: no process killed
+Set_bootstate_to_env : 
+Reading 4096 bytes......success
+Uboot CRC is 4ACC4D4E, Uboot env CRC is 4ACC4D4E
+Reading 65536 bytes......success
+Set_bootstate_to_env : bootstate is [2]
+Erase Length: 0x00010000 Bytes
+Erasing ......
+killall: smbd: no process killed
+killall: nmbd: no process killed
+kill samba server firsthello, samba!
+Erasing ......success
+Writing 65536 bytes......
+Writing 65536 bytes......success
+startsmbfilepwent_internal: file /tmp/samba/private/smbpasswd did not exist. File successfully created.
+User guest password set to none.
+Unlocking mtd1 ...
+Writing from /dev/mtd1_tmp to mtd1 ...  [w]
+main(205) :: 
+DMS_Create()
+DLNA DMS: UUID=[aaab4c54-ea1b-1885-b390-0026b708fef0]
+IP Address List: 192.168.201.254
+Wlan restart service...
+apcli0    no private ioctls.
+
+Interface doesn't accept private ioctl...
+set (8BE2): Network is down
+ls: /media/*/mlw5200fw_v*.*.*.bin: No such file or directory
+Interface doesn't accept private ioctl...
+set (8BE2): Network is down
+ls: /media/*/mlwG2_v*.*.*.bin: No such file or directory
+ls: /media/*/gemtek_easytest.txt: No such file or directory
+
+ifconfig: ioctl 0x8913 failed: No such device
+interface ra2 does not exist!
+killall: wscd: no process killed
+killall: ap_client_run: no process killed
+ra1       no private ioctls.
+
+ra2       no private ioctls.
+
+starting pid 8597, tty '/dev/ttyS1': '/bin/sh'
+
+BusyBox v1.12.1 (2014-09-18 09:46:08 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+# 
