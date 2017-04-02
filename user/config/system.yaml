@@ -4,6 +4,7 @@ param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
 force_ssl: false
+custom_base_url: 'http://localhost'
 languages:
   supported:
     - en
@@ -127,6 +128,7 @@ session:
   secure: false
   httponly: true
   split: true
+  path: /
 gpm:
   releases: stable
   method: auto
