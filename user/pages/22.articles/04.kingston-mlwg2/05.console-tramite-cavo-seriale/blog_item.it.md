@@ -70,7 +70,7 @@ Una volta avuto accesso alla porta seriale basterà avviare un terminale seriale
 *  velocità 57600 baud
 *  parità nessuna
 *  bit dati 8
-*  bit di parità 1
+*  bit di stop 1
 
 In questo esempio io utilizzo picocom:
 
