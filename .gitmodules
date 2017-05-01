@@ -10,3 +10,6 @@
 [submodule "user/themes/muflone"]
 	path = user/themes/muflone
 	url = https://github.com/muflone/grav-theme-muflone.git
+[submodule "user/plugins/cdn-function"]
+	path = user/plugins/cdn-function
+	url = https://github.com/muflone/grav-plugin-cdn-function.git
